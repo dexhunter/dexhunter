@@ -9,6 +9,6 @@
 	<a href="https://twitter.com/dixingxu"><img src="https://img.shields.io/twitter/follow/dixingxu?label=Twitter&style=social" alt="Twitter"></a>
 	<a href="https://www.linkedin.com/in/dex-xu"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 	<a href="https://www.zhihu.com/people/dex_hunter"><img src="https://img.shields.io/badge/知乎--_.svg?style=social&logo=zhihu" alt="zhihu"></a>
-	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/badge/Citations-96-_.svg?style=social&logo=google-scholar" alt="Scholars"></a>
+	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/badge/Citations-100+-_.svg?style=social&logo=google-scholar" alt="Scholars"></a>
 	<a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/Sponsors--_.svg?style=social&logo=github&logoColor=EA4AAA" alt="Sponsors"></a>
 </p>
