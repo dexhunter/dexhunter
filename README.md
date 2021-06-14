@@ -15,7 +15,7 @@
 </a>
 
 <a href="http://github.com/dexhunter/dexhunter">
-	<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dexhunter&layout=compact&bg_color=50,e96443,904e95&title_color=fff&text_color=fff" />
+	<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dexhunter&bg_color=50,e96443,904e95&title_color=fff&text_color=fff" />
 </a>
 
 	
