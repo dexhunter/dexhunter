@@ -11,7 +11,7 @@
 </p>
 
 <a href="https://github.com/dexhunter/dexhunter">
-	<img align="center" src="https://github-readme-stats.vercel.app/api?username=dexhunter&bg_color=30,e96443,904e95&title_color=000&text_color=000" />
+	<img align="center" src="https://github-readme-stats.vercel.app/api?username=dexhunter&bg_color=50,e96443,904e95&title_color=000&text_color=000" />
 </a>
 
 <a href="http://github.com/dexhunter/dexhunter">
