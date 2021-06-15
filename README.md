@@ -10,13 +10,15 @@
 	<a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/Sponsors--_.svg?style=social&logo=github&logoColor=EA4AAA" alt="Sponsors"></a>
 </p>
 
-<a href="https://github.com/dexhunter/dexhunter">
-	<img align="center" src="https://github-readme-stats.vercel.app/api?username=dexhunter&bg_color=50,e96443,904e95&title_color=000&text_color=000" />
-</a>
-
 <a href="http://github.com/dexhunter/dexhunter">
 	<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dexhunter&bg_color=50,904e95,e96443&title_color=fff&text_color=fff" />
 </a>
+
+<a href="https://github.com/dexhunter/dexhunter">
+	<img align="center" src="https://github-readme-stats.vercel.app/api?username=dexhunter&bg_color=50,e96443,904e95&title_color=000&text_color=000&line_height=40" />
+</a>
+
+
 
 	
 
