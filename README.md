@@ -11,7 +11,7 @@
 	<a href="https://twitter.com/dixingxu"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
 	<a href="https://blog.dex.moe/feed.xml"><img src="https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white" alt="rss"></a>
 	<a href="https://imgur.com/9DvZhgc"><img src="https://img.shields.io/badge/dogecoin-C2A633?style=for-the-badge&logo=dogecoin&logoColor=white" alt="dogecoin"></a>
-	<a href="https://youtube.com/dexhunter"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube"></a>
+	<a href="https://www.youtube.com/channel/UCp9lzC7kGfuIcBPGBBXpacg"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube"></a>
 	<a href="https://www.instagram.com/dex.koi/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram"></a>
 	<a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" alt="Sponsors"></a>
 </p>
