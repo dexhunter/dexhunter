@@ -1,3 +1,12 @@
+# Hi, I am Dex Koi
+
+---
+
+- 🖧 I'm currently doing research on the performance of different blockchain frameworks (RA@HKBU)
+- 💻I'm a maintainer of Hyperledger Fabric Python SDK, previously intern at Hyperledger/Linux Foundation, feel free to ask me anything about the project
+- 🎸I'm currently learning how to make and play the guitar
+- 🤟🏻I'm a open-source enthusiast
+
 <p align="center">
 	<a href="https://github.com/dexhunter/yaacv/releases"><img src="https://img.shields.io/static/v1?label=EN&message=Resume&color=red" alt="resume"></a>
 	<a href="http://blog.dex.moe"><img src="https://img.shields.io/badge/Technical-Blog-brightgreen" alt="technical-blog"></a>
