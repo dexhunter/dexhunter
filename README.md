@@ -1,6 +1,6 @@
 # Hi 👋 Dex here
  
-- 🖧 I'm currently doing research on the performance of different blockchain frameworks (RA@HKBU)
+~~- 🖧 I'm currently doing research on the performance of different blockchain frameworks (RA@HKBU)~~
 - 💻I'm a maintainer of Hyperledger Fabric Python SDK, previously intern at Hyperledger/Linux Foundation, feel free to ask me anything about the project
 - 🎸I'm currently learning how to make and play the guitar
 - 🤟🏻I'm a open-source enthusiast
