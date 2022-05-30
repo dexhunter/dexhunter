@@ -6,6 +6,7 @@
 	<a href="https://github.com/dexhunter/yaacv/releases"><img src="https://img.shields.io/static/v1?label=EN&message=Resume&color=red" alt="resume"></a>
 	<a href="http://blog.dex.moe"><img src="https://img.shields.io/badge/Technical-Blog-brightgreen" alt="technical-blog"></a>
 	<a href="https://books.dex.moe"><img src="https://img.shields.io/badge/Personal-Blog-blueviolet" alt="personal-blog"></a>
+	<a href="http://slides.dex.moe"><img src="https://img.shields.io/badge/Presentation-Slides-red" alt="presentation-slides"></a>
 	<a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=social" alt="GitHub"></a>
 	<a href="https://www.linkedin.com/in/dex-xu"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
 	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/badge/Citations-200+-_.svg?style=social&logo=google-scholar" alt="Scholars"></a>
