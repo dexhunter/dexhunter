@@ -1,4 +1,4 @@
-# Hello 👋 Dex here. Welcome to my page!
+# Salve👋 Dex hic. Grata pagina mea!
  
 <p align="center">
 	<a href="https://github.com/dexhunter/yaacv/releases"><img src="https://img.shields.io/static/v1?label=EN&message=Resume&color=red" alt="resume"></a>
