@@ -11,7 +11,8 @@
 <p align="center">
 		<a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=social" alt="GitHub"></a>
 	<a href="https://www.linkedin.com/in/dex-xu"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
-	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/badge/Citations-550+-_.svg?style=social&logo=google-scholar" alt="Scholars"></a>
+	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="[https://img.shields.io/badge/Citations-550+-_.svg?style=social&logo=google-scholar](https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.replit.app%2Fcitations%3Fuser%3D8Ez_u30AAAAJ
+)" alt="Scholars"></a>
 </p>
 
 <p align="center">
