@@ -1,4 +1,7 @@
-# Salve👋 Dex hic. Grata pagina mea!
+<div align="center">
+<h1 align="center">Salve👋 Dex hic. Grata pagina mea!</h1>
+    <!-- Latin Dex here. Welcome to my page -->
+</div>
  
 <p align="center">
 	<a href="https://github.com/dexhunter/yaacv/releases"><img src="https://img.shields.io/static/v1?label=EN&message=Resume&color=red" alt="resume"></a>
@@ -15,12 +18,9 @@
 </p>
 
 <p align="center">
-	<a href="https://twitter.com/dixingxu"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-	<a href="https://blog.dex.moe/feed.xml"><img src="https://img.shields.io/badge/RSS-FFA500?style=for-the-badge&logo=rss&logoColor=white" alt="rss"></a>
-	<a href="https://imgur.com/9DvZhgc"><img src="https://img.shields.io/badge/dogecoin-C2A633?style=for-the-badge&logo=dogecoin&logoColor=white" alt="dogecoin"></a>
-	<a href="https://www.youtube.com/@dixingxu"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="youtube"></a>
-	<a href="https://www.instagram.com/dex.koi/"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram"></a>
 	<a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" alt="Sponsors"></a>
+	<a href="https://etherscan.io/address/dexhunter.eth"><img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="dexhunter.eth"></a>
+	<a href="https://explorer.solana.com/address/dexhunter.sol"><img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=Solana&logoColor=white" alt="dexhunter.sol"></a>
 </p>
 
 <!-- <p align="center">
@@ -32,15 +32,3 @@
 	<img align="center" src="https://github-readme-stats.vercel.app/api?username=dexhunter&bg_color=50,e96443,904e95&title_color=000&text_color=000&line_height=40" />
 </a>
 </p> -->
-
-
-
-
-
-
-	
-
-
-
-
-
