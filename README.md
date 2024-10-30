@@ -5,21 +5,13 @@
 
 
 🏢 **Industry Focus**
-- blockchain
-- web3
-- fintech
+- blockchain, web3, fintech, data science
 
 🎓 **Academic Interests**
-- deep learning
-- reinforcement learning
-- Internet of Things (IoT)
-- privacy
-- portfolio management
+- deep learning, reinforcement learning, Internet of Things (IoT), privacy, portfolio management
 
 🎯 **Hobbies**
-- sports/workout 🏋️‍♂️
-- guitars 🎸
-- woodworking 🪵
+- sports/workout 🏋️‍♂️, guitars 🎸, woodworking 🪵
 
 🕸️ **More Pages**
 
