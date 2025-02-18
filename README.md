@@ -2,13 +2,13 @@
 <h1 align="center">Hi👋 Dex here. Welcome to my page!</h1>
 </div>
 
-I am currently a software developer at [@wecoai](https://github.com/wecoai). Previously, I did resesarch at Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, worked on different topics including IoT, privacy, deep learning, distributed machine learning and blockchain technologies. Then I worked remotely as a backend developer in a web3 company based in Hong Kong. After that I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks. Sometimes I also particate in hackathons. Now I am trying to leverage the llm for the good of people and see how asi can benefit humanity and push us forward.
+I am currently a software developer at [@wecoai](https://github.com/wecoai). Previously, I did resesarch at Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, worked on different topics including IoT, privacy, deep learning, distributed ml and blockchain/DLT. Then I worked remotely as a backend developer in a web3 company based in Hong Kong. After that I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks. Sometimes I also particate in hackathons. Now I am trying to leverage the llm for the good of people and see how asi can benefit humanity and push us forward.
 
 🏢 **Industry Focus**
 - web3/crypto, fintech, data science, llm/agentic system
 
 🎓 **Academic Interests**
-- deep learning, reinforcement learning, Internet of Things (IoT), privacy, portfolio management
+- Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technologies
 
 🎯 **Hobbies**
 - weightlifting 🏋️‍♂️, guitars 🎸, ~~woodworking 🪵~~ running🏃
