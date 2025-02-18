@@ -8,7 +8,7 @@ I am currently a software developer at [@wecoai](https://github.com/wecoai). Pre
 - web3/crypto, fintech, data science, llm/agentic system
 
 🎓 **Academic Interests**
-- Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technologies
+- Deep Learning, Reinforcement Learning, Internet of Things, Distributed ledger Technology
 
 🎯 **Hobbies**
 - weightlifting 🏋️‍♂️, guitars 🎸, ~~woodworking 🪵~~ running🏃
