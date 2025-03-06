@@ -11,7 +11,7 @@ I am currently a software developer at [@wecoai](https://github.com/wecoai). Pre
 - Deep Learning, Reinforcement Learning, Internet of Things, Distributed ledger Technology
 
 🎯 **Hobbies**
-- weightlifting 🏋️‍♂️, guitars 🎸, ~~woodworking 🪵~~ running🏃
+- weightlifting 🏋️‍♂️, guitars 🎸(particularly love surf🏄rock🪨), ~~woodworking 🪵~~ running🏃
 
 
 📊 **Statistics**
