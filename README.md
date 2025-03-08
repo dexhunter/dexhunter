@@ -29,8 +29,6 @@
 <p align="center">
 	<a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=social" alt="GitHub"></a>
 	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.replit.app%2Fcitations%3Fuser%3D8Ez_u30AAAAJ" alt="Scholars"></a>
-	<br>
-	<a href="https://meta.stackoverflow.com/users/3253000/dexhunter"><img src="https://readme-components.vercel.app/api?component=stackoverflow&stackoverflowid=3253000"></a>
 </p>
 
 
@@ -41,4 +39,12 @@
 	<a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" alt="Sponsors"></a>
 	<a href="https://etherscan.io/address/dexhunter.eth"><img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="dexhunter.eth"></a>
 	<a href="https://explorer.solana.com/address/dexhunter.sol"><img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=Solana&logoColor=white" alt="dexhunter.sol"></a>
+</p>
+
+<h2 align="center"> Miscs </h2>
+
+<p align="center">
+	<a href="https://meta.stackoverflow.com/users/3253000/dexhunter"><img src="https://readme-components.vercel.app/api?component=stackoverflow&stackoverflowid=3253000"></a>
+	<br>
+	<a href="https://github.com/dexhunter"><img src="https://github-readme-stats.vercel.app/api?username=dexhunter&show_icons=true&theme=date_night" alt="dexhunter" /></a>
 </p>
