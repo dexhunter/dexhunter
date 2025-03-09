@@ -31,7 +31,6 @@
 	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.replit.app%2Fcitations%3Fuser%3D8Ez_u30AAAAJ" alt="Scholars"></a>
 </p>
 
-### Time Spent
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
 
