@@ -3,8 +3,8 @@ name: Waka Readme
 on:
   workflow_dispatch:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */12 * * *"
+    # Runs every 6 hours
+    - cron: "0 */6 * * *"
 
 jobs:
   update-readme:
@@ -17,4 +17,8 @@ jobs:
           CODE_LANG: python # optional
           SHOW_TIME: true # optional
           SHOW_TOTAL: true # optional
-          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ #optional
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ # optional
+          LANG_COUNT: 10 # optional
+          SECTION_NAME: waka dev metrics # optional
+          SHOW_TITLE: true # optional
+          TIME_RANGE: last_7_days # optional
