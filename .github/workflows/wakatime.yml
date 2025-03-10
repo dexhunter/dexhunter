@@ -17,3 +17,4 @@ jobs:
           CODE_LANG: python # optional
           SHOW_TIME: true # optional
           SHOW_TOTAL: true # optional
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿ #optional
