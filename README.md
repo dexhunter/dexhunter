@@ -34,9 +34,10 @@
 <!--START_SECTION:waka-->
 
 ```python
-Total Time: 0 secs
+Total Time: 23 mins
 
-No activity tracked
+YAML       20 mins         █████████████████████▓░░░   86.07 %
+Markdown   3 mins          ███▒░░░░░░░░░░░░░░░░░░░░░   13.93 %
 ```
 
 <!--END_SECTION:waka-->
