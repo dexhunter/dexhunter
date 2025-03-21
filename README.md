@@ -31,7 +31,7 @@
 	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.replit.app%2Fcitations%3Fuser%3D8Ez_u30AAAAJ" alt="Scholars"></a>
 </p>
 
-<!--START_SECTION:waka-->
+<!--START_SECTION:defaultwaka-->
 
 ```python
 From: 13 March 2025 - To: 20 March 2025
@@ -50,7 +50,12 @@ TypeScript   3 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 Text         2 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.24 %
 ```
 
-<!--END_SECTION:waka-->
+<!--END_SECTION:defaultwaka-->
+
+---
+
+<!--START_SECTION:addonwaka-->
+<!--END_SECTION:addonwaka-->
 
 
 <h2 align="center">  💰 Support </h2>
