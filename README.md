@@ -54,8 +54,8 @@ Text         2 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 ---
 
-<!--START_SECTION:addonwaka-->
-<!--END_SECTION:addonwaka-->
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 
 <h2 align="center">  💰 Support </h2>
