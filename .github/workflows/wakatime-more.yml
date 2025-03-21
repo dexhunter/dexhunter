@@ -17,8 +17,6 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SYMBOL_VERSION: 2
-          COMMIT_EMAIL: i@dex.moe
-          COMMIT_USERNAME: "dexhunter"
           SHOW_UPDATED_DATE: true
           SHOW_LANGUAGE_PER_REPO: true
           SHOW_COMMIT: true
