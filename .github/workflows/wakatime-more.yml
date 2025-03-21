@@ -17,7 +17,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SYMBOL_VERSION: 2
-          COMMIT_EMAIL: 6930518+dexhunter@users.noreply.github.com
+          COMMIT_EMAIL: i@dex.moe
           COMMIT_USERNAME: "dexhunter"
           SHOW_UPDATED_DATE: true
           SHOW_LANGUAGE_PER_REPO: true
@@ -32,3 +32,5 @@ jobs:
           SHOW_PROJECTS: false
           SHOW_LOC_CHART: false
           SHOW_SHORT_INFO: false
+          COMMIT_BY_ME: true
+          COMMIT_MESSAGE: "ci(auto): update wakatime stats"
