@@ -1,4 +1,4 @@
-name: Update Dev Metrics
+name: Waka Dev Metrics
 
 on:
   workflow_dispatch:
@@ -18,16 +18,17 @@ jobs:
           SYMBOL_VERSION: 2
           COMMIT_EMAIL: i@dex.moe
           COMMIT_USERNAME: "dexhunter"
+          COMMIT_MESSAGE: "ci(auto): update dev metrics"
           SHOW_UPDATED_DATE: true
           SHOW_LANGUAGE_PER_REPO: true
           SHOW_COMMIT: true
           SHOW_DAYS_OF_WEEK: true
           SHOW_EDITORS: true
           SHOW_TIMEZONE: true
-          SHOW_PROFILE_VIEWS: false
-          SHOW_TOTAL_CODE_TIME: false
-          SHOW_LINES_OF_CODE: false
+          SHOW_PROFILE_VIEWS: true
+          SHOW_TOTAL_CODE_TIME: true
+          SHOW_LINES_OF_CODE: true
           SHOW_OS: true
           SHOW_PROJECTS: false
           SHOW_LOC_CHART: false
-          SHOW_SHORT_INFO: false
+          SHOW_SHORT_INFO: true
