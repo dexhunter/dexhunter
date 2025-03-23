@@ -25,7 +25,7 @@ const DEX: ReadMe = ReadMe {
 </p>
 
 <details>
-<summary> <h2 style="display: inline-block;">About ME</h3> </summary>
+<summary> <h2 style="display: inline-block;">About ME 👨‍💻</h3> </summary>
 
 <h2 align="center"> 🗃️ Portfolio </h2>
 
@@ -50,7 +50,7 @@ const DEX: ReadMe = ReadMe {
 </details>
 
 
-<h2 align="center">  📊 Statistics </h2>
+<h2 align="center">  📊 Statistics 📊</h2>
 
 
 <!--START_SECTION:defaultwaka-->
@@ -83,7 +83,7 @@ TSConfig     0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 ---
 
 <details open>
-<summary><h3 style="display: inline-block;">📈 MORE DATA 📊</h3></summary>
+<summary><h3 style="display: inline-block;">📈 MORE DATA 📉</h3></summary>
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-27%20hrs%2041%20mins-blue)
@@ -175,7 +175,7 @@ SCSS                     1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 </details>
 
-<h2 align="center">  💰 Support </h2>
+<h2 align="center">  💰 Support 💰 </h2>
 
 <p align="center">
 	<a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" alt="Sponsors"></a>
