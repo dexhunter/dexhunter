@@ -25,10 +25,10 @@ jobs:
           SHOW_DAYS_OF_WEEK: true
           SHOW_EDITORS: true
           SHOW_TIMEZONE: true
-          SHOW_PROFILE_VIEWS: true
-          SHOW_TOTAL_CODE_TIME: true
-          SHOW_LINES_OF_CODE: true
+          SHOW_PROFILE_VIEWS: false
+          SHOW_TOTAL_CODE_TIME: false
+          SHOW_LINES_OF_CODE: false
           SHOW_OS: true
           SHOW_PROJECTS: false
           SHOW_LOC_CHART: false
-          SHOW_SHORT_INFO: true
+          SHOW_SHORT_INFO: false
