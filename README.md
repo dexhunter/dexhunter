@@ -5,7 +5,7 @@
 ```rust
 const DEX: ReadMe = ReadMe {
     name: "Dex Hunter",
-    blog: "https://dex.moe",
+    blog: "https://blog.dex.moe",
     email: "i@dex.moe",
     industry_focus: "web3/crypto, fintech, data science, llm/agentic system",
     academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed ledger Technology",
@@ -82,7 +82,7 @@ TSConfig     0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 ---
 
-<details open>
+<details>
 <summary><h3 style="display: inline-block;">📈 MORE DATA 📉</h3></summary>
 
 <!--START_SECTION:waka-->
