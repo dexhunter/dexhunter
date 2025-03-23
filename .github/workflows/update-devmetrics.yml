@@ -30,5 +30,5 @@ jobs:
           SHOW_LINES_OF_CODE: false
           SHOW_OS: true
           SHOW_PROJECTS: false
-          SHOW_LOC_CHART: false
-          SHOW_SHORT_INFO: false
+          SHOW_LOC_CHART: true
+          SHOW_SHORT_INFO: true
