@@ -3,8 +3,8 @@ name: Waka Readme
 on:
   workflow_dispatch:
   schedule:
-    # Runs every 12 hours
-    - cron: "0 */12 * * *"
+    # Runs once daily at 12am GMT+8 (16:00 UTC)
+    - cron: "0 16 * * *"
 
 jobs:
   update-readme:
@@ -22,3 +22,4 @@ jobs:
           LANG_COUNT: 25 # optional
           SHOW_TITLE: true # optional
           TIME_RANGE: all_time # optional
+          COMMIT_MESSAGE: "ci(auto): update wakatime metrics"
