@@ -15,7 +15,7 @@ const DEX: ReadMe = ReadMe {
 
 <p align="center">
 	<a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=flat-square" alt="GitHub"></a>
-	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.vercel.app%2Fcitations%3Fuser%3D8Ez_u30AAAAJ&style=flat-square" alt="Scholars"></a>
+	<a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgoogle-scholar-badge.vercel.app%2Fcitations%3Fuser%3D8Ez_u30AAAAJ&color=blue&style=flat-square" alt="Scholars"></a>
 	<a href="https://dex.moe">
 		<img src="https://img.shields.io/badge/Website-dex.moe-red?style=flat-square">
 	</a>
