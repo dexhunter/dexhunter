@@ -11,7 +11,11 @@ jobs:
     name: Update Dev Metrics
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: actions/cache@v4
+        with:
+          path: assets/commits_data.pick
+          key: commits-${{ hashFiles('**/.git/refs/heads/*') }}
+      - uses: dexhunter/fast-waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN_NEW }}
