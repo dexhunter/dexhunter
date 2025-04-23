@@ -95,11 +95,11 @@ sshconfig          0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <summary><h3 style="display: inline-block;">📈 MORE DATA 📉</h3></summary>
 
 <!--START_SECTION:devmetrics-->
-![Code Time](http://img.shields.io/badge/Code%20Time-84%20hrs%2037%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-84%20hrs%2055%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-17-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-10.8%20million%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-8.6%20million%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
@@ -114,8 +114,8 @@ sshconfig          0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning                29530 commits       ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
-🌆 Daytime                0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
+🌞 Morning                0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
+🌆 Daytime                26306 commits       ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
 🌃 Evening                0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
 🌙 Night                  0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
 ```
@@ -128,7 +128,7 @@ Wednesday                0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 Thursday                 0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
 Friday                   0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
 Saturday                 0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-Sunday                   29530 commits       ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
+Sunday                   26306 commits       ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
 ```
 
 
@@ -169,7 +169,7 @@ SCSS                     1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 ![Lines of Code chart](https://raw.githubusercontent.com/dexhunter/dexhunter/master/assets/bar_graph.png)
 
 
- Last Updated on 23/04/2025 03:09:14 UTC
+ Last Updated on 23/04/2025 03:27:36 UTC
 <!--END_SECTION:devmetrics-->
 
 <h2 align="center"> Miscs </h2>
