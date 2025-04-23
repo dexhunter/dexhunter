@@ -30,3 +30,4 @@ jobs:
           SHOW_PROJECTS: false
           SHOW_LOC_CHART: true
           SHOW_SHORT_INFO: true
+          SECTION_NAME: devmetrics

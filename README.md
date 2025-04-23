@@ -94,7 +94,7 @@ sshconfig          0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 <details>
 <summary><h3 style="display: inline-block;">📈 MORE DATA 📉</h3></summary>
 
-<!--START_SECTION:waka-->
+<!--START_SECTION:devmetrics-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-30%20hrs%2046%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-349-blue)
@@ -172,7 +172,7 @@ SCSS                     1 repo              ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 
  Last Updated on 28/03/2025 16:21:46 UTC
-<!--END_SECTION:waka-->
+<!--END_SECTION:devmetrics-->
 
 <h2 align="center"> Miscs </h2>
 
