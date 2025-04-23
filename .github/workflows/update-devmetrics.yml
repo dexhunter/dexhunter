@@ -74,5 +74,7 @@ jobs:
 
         # set to 'True' only when you want **preview/no-commit** runs
         DEBUG_RUN: 'False'
+        INPUT_IGNORED_REPOS: "very-secret-repo,another_one"
+
       run: |
         python sources/main.py
