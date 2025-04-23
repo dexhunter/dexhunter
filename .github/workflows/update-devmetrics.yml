@@ -51,7 +51,8 @@ jobs:
       env:
         # mandatory tokens
         INPUT_WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        INPUT_GH_TOKEN:          ${{ secrets.GH_TOKEN_NEW }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN_NEW }}   # for GitPython / git CLI
+        INPUT_GH_TOKEN: ${{ secrets.GH_TOKEN_NEW }}  # for the action’s own code
 
         # behaviour flags – identical to your previous `with:` block
         INPUT_SECTION_NAME:      devmetrics
