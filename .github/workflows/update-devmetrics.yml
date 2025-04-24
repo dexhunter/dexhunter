@@ -31,6 +31,15 @@ jobs:
         python-version: '3.11'
         cache: 'pip'
 
+    # Prime GitHub's caches *while* Python installs wheels
+    - name: Warm stats caches in background
+      run: |
+        while read r; do
+          curl -s -o /dev/null -H "Authorization: Bearer $GH_FULL" \
+            "https://api.github.com/repos/$r/stats/code_frequency" &
+        done < <(jq -r '.[]|select(.isPrivate|not)|"\(.owner.login)/\(.name)"' repos.json)
+        wait
+
     # 4. cache the generated assets (commit stats pickle, graphs, …)
     - name: Cache Waka assets
       uses: actions/cache@v4
@@ -52,7 +61,7 @@ jobs:
         # mandatory tokens
         INPUT_WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
         GH_TOKEN: ${{ secrets.GH_TOKEN_NEW }}   # for GitPython / git CLI
-        INPUT_GH_TOKEN: ${{ secrets.GH_TOKEN_NEW }}  # for the action’s own code
+        INPUT_GH_TOKEN: ${{ secrets.GH_TOKEN_NEW }}  # for the action's own code
 
         # behaviour flags – identical to your previous `with:` block
         INPUT_SECTION_NAME:      devmetrics
