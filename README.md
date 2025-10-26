@@ -56,7 +56,7 @@ const DEX: ReadMe = ReadMe {
 <!--START_SECTION:defaultwaka-->
 
 ```python
-From: 08 March 2025 - To: 25 October 2025
+From: 08 March 2025 - To: 26 October 2025
 
 Total Time: 240 hrs 21 mins
 
