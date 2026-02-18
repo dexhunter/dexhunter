@@ -24,23 +24,12 @@ const DEX: ReadMe = ReadMe {
 	</a>
 </p>
 
-<details>
-<summary> <h2 style="display: inline-block;">About ME 👨‍💻</h3> </summary>
-
-<h2 align="center"> 🗃️ Portfolio </h2>
+<h2 align="center"> 👨‍💻 About ME </h2>
 
 1. I am currently a software engineer at [@wecoai](https://github.com/wecoai), building self-improving AI agents. Our flagship project [AIDE](https://github.com/wecoai/aideml) ranks #1 on OpenAI's MLE-bench.
 2. *academia*: Previously, I did research at Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, and Xi'an Jiaotong-Liverpool University, working on topics including IoT, privacy, deep learning, distributed ML, and blockchain/DLT.
 3. *industry*: I was a backend engineer (Rust, Go, Node.js) at [Hex Trust](https://hextrust.com), a digital asset custodian in Hong Kong. I also interned twice at The Linux Foundation on [Hyperledger](https://www.hyperledger.org/) projects. Later I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks.
 4. *education*: B.Sc. in Information and Computing Sciences from University of Liverpool / Xi'an Jiaotong-Liverpool University (2015-2020).
-
-<h2 align="center"> 🏢 Industry Focus </h2>
-
-- web3/crypto, fintech, data science, LLM/agentic systems
-
-<h2 align="center"> 🎓 Academic Interests </h2>
-
-- Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technology, Self-Improving AI
 
 <h2 align="center"> 📝 Publications </h2>
 
@@ -66,12 +55,6 @@ const DEX: ReadMe = ReadMe {
 - 🏆 2017 IBM Student Innovation Lab Program Award
 - 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum 2020 (Phoenix, AZ)
 - 🎓 CNCF Diversity Scholarship, KubeCon + CloudNativeCon China 2018
-
-<h2 align="center">  🎯 Hobbies </h2>
-
-- weightlifting 🏋️‍♂️, guitars 🎸 (particularly love surf rock 🏄🪨)
-
-</details>
 
 <h2 align="center"> 🚀 Current Projects </h2>
 
