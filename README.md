@@ -74,9 +74,11 @@ const DEX: ReadMe = ReadMe {
 </p>
 <p align="center">
   <img src="images/vibe-clock-donut.svg" alt="Model Usage" />
+  <img src="images/vibe-clock-token-bars.svg" alt="Token Usage by Model" />
 </p>
 <p align="center">
-  <img src="images/vibe-clock-token-bars.svg" alt="Token Usage by Model" />
+  <img src="images/vibe-clock-hourly.svg" alt="Activity by Hour" />
+  <img src="images/vibe-clock-weekly.svg" alt="Activity by Day of Week" />
 </p>
 
 <h2 align="center"> 💰 Support </h2>
