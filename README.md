@@ -7,9 +7,9 @@ const DEX: ReadMe = ReadMe {
     name: "Dex Hunter",
     blog: "https://blog.dex.moe",
     email: "i@dex.moe",
-    industry_focus: "web3/crypto, fintech, data science, llm/agentic system",
-    academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed ledger Technology",
-    hobbies: "weightlifting 🏋️‍♂️, guitars 🎸(particularly love surf🏄rock🪨), running🏃"
+    industry_focus: "web3/crypto, fintech, data science, LLM/agentic systems",
+    academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technology, Self-Improving AI",
+    hobbies: "weightlifting 🏋️‍♂️, guitars 🎸 (particularly love surf rock 🏄🪨)"
 };
 ```
 
@@ -29,162 +29,66 @@ const DEX: ReadMe = ReadMe {
 
 <h2 align="center"> 🗃️ Portfolio </h2>
 
-1. I am currently a software developer at [@wecoai](https://github.com/wecoai), trying to leverage the llm for the good of people and see how asi can benefit humanity and push us forward.
-2. *academia*: Previously, I did resesarch at Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, worked on different topics including IoT, privacy, deep learning, distributed ml and blockchain/DLT.
-3. *industry*: Then I worked remotely as a backend developer in a web3 company based in Hong Kong. After that I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks.
-
+1. I am currently a software engineer at [@wecoai](https://github.com/wecoai), building self-improving AI agents. Our flagship project [AIDE](https://github.com/wecoai/aideml) ranks #1 on OpenAI's MLE-bench.
+2. *academia*: Previously, I did research at Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, and Xi'an Jiaotong-Liverpool University, working on topics including IoT, privacy, deep learning, distributed ML, and blockchain/DLT.
+3. *industry*: I was a backend engineer (Rust, Go, Node.js) at [Hex Trust](https://hextrust.com), a digital asset custodian in Hong Kong. I also interned twice at The Linux Foundation on [Hyperledger](https://www.hyperledger.org/) projects. Later I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks.
+4. *education*: B.Sc. in Information and Computing Sciences from University of Liverpool / Xi'an Jiaotong-Liverpool University (2015-2020).
 
 <h2 align="center"> 🏢 Industry Focus </h2>
 
-- web3/crypto, fintech, data science, llm/agentic system
+- web3/crypto, fintech, data science, LLM/agentic systems
 
 <h2 align="center"> 🎓 Academic Interests </h2>
 
-- Deep Learning, Reinforcement Learning, Internet of Things, Distributed ledger Technology
+- Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technology, Self-Improving AI
 
+<h2 align="center"> 📝 Publications </h2>
+
+- **[A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem](https://arxiv.org/abs/1706.10059)** — Zhengyao Jiang, **Dixing Xu**, Jinjun Liang (arXiv, 2017)
+- **[Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference](https://ieeexplore.ieee.org/document/9046832/)** — Dixing Xu, Mengyao Zheng, Linshan Jiang, Chaojie Gu, Rui Tan, Peng Cheng (IEEE IoT Journal, 2020)
+- **[Challenges of Privacy-Preserving Machine Learning in IoT](https://arxiv.org/abs/1909.09804)** — Mengyao Zheng, **Dixing Xu**, Linshan Jiang, Chaojie Gu, Rui Tan, Peng Cheng (AIChallengeIoT, 2019)
+
+<h2 align="center"> 🎤 Talks </h2>
+
+- **[Algorithmic Trading Workshop](https://slides.dex.moe)** (2024)
+- **[Deep Learning for Power System Security Assessment](https://slides.dex.moe)** (2019)
+- **[Introduction to Hyperledger Fabric](https://slides.dex.moe)** (2019)
+
+<h2 align="center"> 🏅 Awards </h2>
+
+- 🏆 Special Prize (US$10,000), Wanxiang Blockchain Hackathon by QTUM (2018)
+- 🥇 1st Prize, 2018 EOS Hackathon Hangzhou (Team)
+- 🥇 1st Prize, Hack x FDU 2017 Hackathon (top among 70+ groups)
+- 🥈 2nd Prize, 2020 XJTLU Blockchain Technology Application Innovation & Entrepreneurship Challenge
+- 🥈 2nd Prize, 2018 XJTLU & PNP AI Innovation Hackathon
+- 🥉 3rd Prize, 2018 EOS Hackathon Hangzhou (Personal)
+- 🥉 3rd Prize, DoraHacks x BCH Faith Hack
+- 🏆 2017 IBM Student Innovation Lab Program Award
+- 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum 2020 (Phoenix, AZ)
+- 🎓 CNCF Diversity Scholarship, KubeCon + CloudNativeCon China 2018
 
 <h2 align="center">  🎯 Hobbies </h2>
 
-- weightlifting 🏋️‍♂️, guitars 🎸(particularly love surf🏄rock🪨), ~~woodworking 🪵~~ running🏃
+- weightlifting 🏋️‍♂️, guitars 🎸 (particularly love surf rock 🏄🪨)
 
 </details>
 
+<h2 align="center"> 🚀 Current Projects </h2>
 
-<h2 align="center">  📊 Statistics 📊</h2>
+- 🤖 **[AIDE](https://github.com/wecoai/aideml)** - AI-Driven Exploration in the space of code; the ML engineering agent that automates AI R&D
+- 🔧 **[weco-cli](https://github.com/wecoai/weco-cli)** - The platform for self-improving code, ideal for GPU kernels, ML models, and prompt engineering
+- 🎬 **[seedance2-skill](https://github.com/dexhunter/seedance2-skill)** - Skill to create best prompts for generating videos with Seedance 2.0
+- 🏆 **[kaggle-mcp](https://github.com/dexhunter/kaggle-mcp)** - MCP server for Kaggle APIs
+- 🎓 **[google-scholar-badge](https://github.com/dexhunter/google-scholar-badge)** - Track your Google Scholar citations on a badge
 
+<h2 align="center"> 📦 Legacy Work </h2>
 
-<!--START_SECTION:defaultwaka-->
-
-```python
-From: 08 March 2025 - To: 17 February 2026
-
-Total Time: 260 hrs 43 mins
-
-Python             138 hrs 26 mins ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   51.73 %
-Markdown           52 hrs 28 mins  ⣿⣿⣿⣿⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   19.61 %
-Text               16 hrs 58 mins  ⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   06.35 %
-Bash               13 hrs 6 mins   ⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.89 %
-YAML               12 hrs 52 mins  ⣿⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   04.81 %
-Docker             9 hrs 18 mins   ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   03.48 %
-Other              6 hrs 54 mins   ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.58 %
-JSON               5 hrs 39 mins   ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.11 %
-HTML               2 hrs 2 mins    ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.77 %
-Git Config         1 hr 57 mins    ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.73 %
-Git                1 hr 47 mins    ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.67 %
-TOML               1 hr 30 mins    ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.56 %
-JavaScript         59 mins         ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.37 %
-TypeScript         46 mins         ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.29 %
-MDX                36 mins         ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.22 %
-TeX                23 mins         ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.15 %
-CSV                21 mins         ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.14 %
-XML                14 mins         ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.09 %
-SQL                12 mins         ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.08 %
-Rust               11 mins         ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.07 %
-Jungle             9 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.06 %
-Image (svg)        8 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.06 %
-conf               6 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.04 %
-gitignore          4 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.03 %
-sh                 4 mins          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.03 %
-```
-
-<!--END_SECTION:defaultwaka-->
-
----
-
-<details>
-<summary><h3 style="display: inline-block;">📈 MORE DATA 📉</h3></summary>
-
-<!--START_SECTION:devmetrics-->
-![Code Time](http://img.shields.io/badge/Code%20Time-267%20hrs%2037%20mins-blue)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-20-blue)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-229%20lines%20of%20code-blue)
-
-**🐱 My GitHub Data** 
-
-> 📦 609.0 kB Used in GitHub's Storage 
- > 
-> 🏆 110 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 124 Public Repositories 
- > 
-> 🔑 50 Private Repositories 
- > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-🌆 Daytime                0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-🌃 Evening                1 commits           ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
-🌙 Night                  0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-```
-📅 **I'm Most Productive on Wednesday** 
-
-```text
-Monday                   0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-Tuesday                  0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-Wednesday                1 commits           ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
-Thursday                 0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-Friday                   0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-Saturday                 0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-Sunday                   0 commits           ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Hong_Kong
-
-💬 Programming Languages: 
-Markdown                 1 min               ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   47.93 % 
-TOML                     0 secs              ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   21.49 % 
-Bash                     0 secs              ⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   18.60 % 
-JSON                     0 secs              ⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   11.98 % 
-
-🔥 Editors: 
-Vim                      4 mins              ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
-
-💻 Operating System: 
-Mac                      4 mins              ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿   100.00 % 
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   72 repos            ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   49.32 % 
-Jupyter Notebook         14 repos            ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   09.59 % 
-TypeScript               10 repos            ⣿⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   06.85 % 
-HTML                     8 repos             ⣿⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   05.48 % 
-MDX                      2 repos             ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.37 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/dexhunter/dexhunter/master/assets/bar_graph.png)
-
-
- Last Updated on 17/02/2026 16:24:10 UTC
-<!--END_SECTION:devmetrics-->
-
-<h2 align="center"> Miscs </h2>
-
-<p align="center">
-	<a href="https://github.com/dexhunter"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dexhunter&theme=date_night" width="95%" alt="summary"></a>
-	<a href="https://github.com/dexhunter"><img src="https://github-readme-stats.vercel.app/api?username=dexhunter&show_icons=true&theme=date_night" width="50%" alt="stats"/></a>
-	<a href="https://github.com/dexhunter"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dexhunter&layout=compact&theme=date_night" width="45%" alt="language"></a>
-	<a href="https://meta.stackoverflow.com/users/3253000/dexhunter"><img src="https://readme-components.vercel.app/api?component=stackoverflow&stackoverflowid=3253000"></a>
-	<br>
-	<b>Visitor Count</b><br>
-	<img src="https://profile-counter.glitch.me/dexhunter/count.svg"  alt="count"/>
-</p>
-
-</details>
+- 🐍 **[TP_solutions](https://github.com/dexhunter/TP_solutions)** - Solutions to all exercises in Think Python
+- 📊 **[mercurius](https://github.com/dexhunter/mercurius)** - Quantitative finance research with deep reinforcement learning
+- 🏗️ **[hackxfdu-DSharing](https://github.com/dexhunter/hackxfdu-DSharing)** - HACK x FDU 2017 hackathon project
+- 🦖 **[DeepLearningTRexRush](https://github.com/dexhunter/DeepLearningTRexRush)** - T-Rex Rush hack using deep reinforcement learning
+- ⛓️ **[smart-contract-comparison](https://github.com/dexhunter/smart-contract-comparison)** - Collections of smart contracts and chaincodes by industry/category
+- 📄 **[yaacv](https://github.com/dexhunter/yaacv)** - Yet Another Academic CV template
 
 <h2 align="center">  💰 Support 💰 </h2>
 

@@ -18,11 +18,11 @@ struct ReadMe {
 
 const DEX: ReadMe = ReadMe {
     name: "Dex Hunter",
-    blog: "https://dex.moe",
+    blog: "https://blog.dex.moe",
     email: "i@dex.moe",
-    industry_focus: "web3/crypto, fintech, data science, llm/agentic system",
-    academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed ledger Technology",
-    hobbies: "weightlifting 🏋️‍♂️, guitars 🎸(particularly love surf🏄rock🪨), running🏃"
+    industry_focus: "web3/crypto, fintech, data science, LLM/agentic systems",
+    academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technology, Self-Improving AI",
+    hobbies: "weightlifting 🏋️‍♂️, guitars 🎸 (particularly love surf rock 🏄🪨)"
 };
 
 fn main() {
