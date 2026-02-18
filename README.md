@@ -73,7 +73,7 @@ const DEX: ReadMe = ReadMe {
 - ⛓️ **[smart-contract-comparison](https://github.com/dexhunter/smart-contract-comparison)** - Collections of smart contracts and chaincodes by industry/category
 - 📄 **[yaacv](https://github.com/dexhunter/yaacv)** - Yet Another Academic CV template
 
-<h2 align="center">  💰 Support 💰 </h2>
+<h2 align="center"> 💰 Support </h2>
 
 <p align="center">
 	<a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white" alt="Sponsors"></a>
