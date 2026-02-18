@@ -67,6 +67,19 @@ const DEX: ReadMe = ReadMe {
 - ⛓️ **[smart-contract-comparison](https://github.com/dexhunter/smart-contract-comparison)** - Collections of smart contracts and chaincodes by industry/category
 - 📄 **[yaacv](https://github.com/dexhunter/yaacv)** - Yet Another Academic CV template
 
+<h2 align="center"> ⏱ Vibe Clock </h2>
+
+<p align="center">
+  <img src="images/vibe-clock-card.svg" alt="Vibe Clock Stats" />
+</p>
+<p align="center">
+  <img src="images/vibe-clock-heatmap.svg" alt="Activity Heatmap" />
+</p>
+<p align="center">
+  <img src="images/vibe-clock-donut.svg" alt="Model Usage" />
+  <img src="images/vibe-clock-bars.svg" alt="Projects" />
+</p>
+
 <h2 align="center"> 💰 Support </h2>
 
 <p align="center">
