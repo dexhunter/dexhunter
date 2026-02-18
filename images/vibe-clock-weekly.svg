@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="200" viewBox="0 0 495 200">
+  <rect width="493" height="198" x="1" y="1" rx="4.5" fill="#0d1117" stroke="#30363d"/>
+  <text x="20" y="28" fill="#58a6ff" font-size="14" font-weight="700" font-family="Arial, Helvetica, sans-serif">
+    Activity by Day of Week
+  </text>
+  <g font-family="Courier New, Courier, monospace">
+    <rect x="50.0" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
+    <rect x="50.0" y="60.0" width="50.4" height="105.0" rx="3" fill="#3fb950"><title>Mon: 28 sessions, 36.7h</title></rect>
+    <text x="75.2" y="56.0" text-anchor="middle" fill="#8b949e" font-size="9">28</text>
+    <rect x="112.4" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
+    <rect x="112.4" y="123.8" width="50.4" height="41.2" rx="3" fill="#3fb950"><title>Tue: 11 sessions, 16.1h</title></rect>
+    <text x="137.6" y="119.8" text-anchor="middle" fill="#8b949e" font-size="9">11</text>
+    <rect x="174.9" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
+    <rect x="174.9" y="56.2" width="50.4" height="108.8" rx="3" fill="#3fb950"><title>Wed: 29 sessions, 21.6h</title></rect>
+    <text x="200.1" y="52.2" text-anchor="middle" fill="#8b949e" font-size="9">29</text>
+    <rect x="237.3" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
+    <rect x="237.3" y="45.0" width="50.4" height="120.0" rx="3" fill="#3fb950"><title>Thu: 32 sessions, 143.0h</title></rect>
+    <text x="262.5" y="41.0" text-anchor="middle" fill="#8b949e" font-size="9">32</text>
+    <rect x="299.7" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
+    <rect x="299.7" y="60.0" width="50.4" height="105.0" rx="3" fill="#3fb950"><title>Fri: 28 sessions, 40.2h</title></rect>
+    <text x="324.9" y="56.0" text-anchor="middle" fill="#8b949e" font-size="9">28</text>
+    <rect x="362.1" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
+    <rect x="362.1" y="120.0" width="50.4" height="45.0" rx="3" fill="#3fb950"><title>Sat: 12 sessions, 82.0h</title></rect>
+    <text x="387.4" y="116.0" text-anchor="middle" fill="#8b949e" font-size="9">12</text>
+    <rect x="424.6" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
+    <rect x="424.6" y="123.8" width="50.4" height="41.2" rx="3" fill="#3fb950"><title>Sun: 11 sessions, 16.2h</title></rect>
+    <text x="449.8" y="119.8" text-anchor="middle" fill="#8b949e" font-size="9">11</text>
+    <text x="75.2" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Mon</text>
+    <text x="137.6" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Tue</text>
+    <text x="200.1" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Wed</text>
+    <text x="262.5" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Thu</text>
+    <text x="324.9" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Fri</text>
+    <text x="387.4" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Sat</text>
+    <text x="449.8" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Sun</text>
+  </g>
+</svg>

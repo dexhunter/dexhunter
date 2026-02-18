@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="739" height="151" viewBox="0 0 739 151">
   <rect width="737" height="149" x="1" y="1" rx="4.5" fill="#0d1117" stroke="#30363d"/>
-  <g font-family="Segoe UI, Ubuntu, sans-serif">
+  <g font-family="Arial, Helvetica, sans-serif">
     <text x="35" y="20" fill="#8b949e" font-size="10">Feb</text>
     <text x="61" y="20" fill="#8b949e" font-size="10">Mar</text>
     <text x="126" y="20" fill="#8b949e" font-size="10">Apr</text>
