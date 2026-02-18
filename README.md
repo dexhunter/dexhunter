@@ -26,16 +26,10 @@ const DEX: ReadMe = ReadMe {
 
 <h2 align="center"> 👨‍💻 About ME </h2>
 
-1. I am currently a software engineer at [@wecoai](https://github.com/wecoai), building self-improving AI agents. Our flagship project [AIDE](https://github.com/wecoai/aideml) ranks #1 on OpenAI's MLE-bench.
+1. I am currently a software engineer at [Weco AI](https://github.com/wecoai), building self-improving AI agents. Our flagship project [AIDE](https://github.com/wecoai/aideml) ranks #1 on OpenAI's MLE-bench.
 2. *academia*: Previously, I did research at Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, and Xi'an Jiaotong-Liverpool University, working on topics including IoT, privacy, deep learning, distributed ML, and blockchain/DLT.
 3. *industry*: I was a backend engineer (Rust, Go, Node.js) at [Hex Trust](https://hextrust.com), a digital asset custodian in Hong Kong. I also interned twice at The Linux Foundation on [Hyperledger](https://www.hyperledger.org/) projects. Later I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks.
 4. *education*: B.Sc. in Information and Computing Sciences from University of Liverpool / Xi'an Jiaotong-Liverpool University (2015-2020).
-
-<h2 align="center"> 📝 Publications </h2>
-
-- **[A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem](https://arxiv.org/abs/1706.10059)** — Zhengyao Jiang, **Dixing Xu**, Jinjun Liang (arXiv, 2017)
-- **[Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference](https://ieeexplore.ieee.org/document/9046832/)** — Dixing Xu, Mengyao Zheng, Linshan Jiang, Chaojie Gu, Rui Tan, Peng Cheng (IEEE IoT Journal, 2020)
-- **[Challenges of Privacy-Preserving Machine Learning in IoT](https://arxiv.org/abs/1909.09804)** — Mengyao Zheng, **Dixing Xu**, Linshan Jiang, Chaojie Gu, Rui Tan, Peng Cheng (AIChallengeIoT, 2019)
 
 <h2 align="center"> 🎤 Talks </h2>
 
