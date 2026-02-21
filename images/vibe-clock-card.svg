@@ -5,10 +5,10 @@
   </text>
   <line x1="20" y1="38" x2="475" y2="38" stroke="#30363d" stroke-width="0.5"/>
   <g font-family="Courier New, Courier, monospace">
-    <text x="20" y="52" fill="#8b949e" font-size="12">Total Time:</text><text x="140" y="52" fill="#c9d1d9" font-size="12" font-weight="600">390.3 hrs</text>
-    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="140" y="74" fill="#c9d1d9" font-size="12" font-weight="600">166</text>
-    <text x="20" y="96" fill="#8b949e" font-size="12">Messages:</text><text x="140" y="96" fill="#c9d1d9" font-size="12" font-weight="600">23.1K</text>
-    <text x="20" y="118" fill="#8b949e" font-size="12">Tokens:</text><text x="140" y="118" fill="#c9d1d9" font-size="12" font-weight="600">2.6B</text>
+    <text x="20" y="52" fill="#8b949e" font-size="12">Total Time:</text><text x="140" y="52" fill="#c9d1d9" font-size="12" font-weight="600">450.0 hrs</text>
+    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="140" y="74" fill="#c9d1d9" font-size="12" font-weight="600">169</text>
+    <text x="20" y="96" fill="#8b949e" font-size="12">Messages:</text><text x="140" y="96" fill="#c9d1d9" font-size="12" font-weight="600">23.7K</text>
+    <text x="20" y="118" fill="#8b949e" font-size="12">Tokens:</text><text x="140" y="118" fill="#c9d1d9" font-size="12" font-weight="600">3.8B</text>
     <text x="270" y="52" fill="#8b949e" font-size="12">Favorite Model:</text><text x="390" y="52" fill="#c9d1d9" font-size="12" font-weight="600">claude-opus-4-6</text>
     <text x="270" y="74" fill="#8b949e" font-size="12">Peak Hour:</text><text x="390" y="74" fill="#c9d1d9" font-size="12" font-weight="600">8:00</text>
     <text x="270" y="96" fill="#8b949e" font-size="12">Active Agents:</text><text x="390" y="96" fill="#c9d1d9" font-size="12" font-weight="600">claude_code, codex</text>

@@ -384,8 +384,9 @@
     <rect x="711" y="30" width="11" height="11" rx="2" fill="#26a641"><title>2026-02-16: 10 sessions</title></rect>
     <rect x="711" y="43" width="11" height="11" rx="2" fill="#0e4429"><title>2026-02-17: 3 sessions</title></rect>
     <rect x="711" y="56" width="11" height="11" rx="2" fill="#26a641"><title>2026-02-18: 9 sessions</title></rect>
-    <rect x="711" y="69" width="11" height="11" rx="2" fill="#39d353"><title>2026-02-19: 14 sessions</title></rect>
-    <rect x="711" y="82" width="11" height="11" rx="2" fill="#161b22"><title>2026-02-20: 0 sessions</title></rect>
+    <rect x="711" y="69" width="11" height="11" rx="2" fill="#39d353"><title>2026-02-19: 15 sessions</title></rect>
+    <rect x="711" y="82" width="11" height="11" rx="2" fill="#0e4429"><title>2026-02-20: 2 sessions</title></rect>
+    <rect x="711" y="95" width="11" height="11" rx="2" fill="#161b22"><title>2026-02-21: 0 sessions</title></rect>
     <text x="589" y="142" fill="#8b949e" font-size="9">Less</text>
     <rect x="619" y="133" width="11" height="11" rx="2" fill="#161b22"/>
     <rect x="634" y="133" width="11" height="11" rx="2" fill="#0e4429"/>
