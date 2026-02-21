@@ -2,7 +2,7 @@ name: Update Vibe Clock Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch:
 
 jobs:
@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: dexhunter/vibe-clock@v1.1.0
+      - uses: dexhunter/vibe-clock@v1.3.0
         with:
           gist_id: ${{ secrets.VIBE_CLOCK_GIST_ID }}
