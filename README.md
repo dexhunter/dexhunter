@@ -28,7 +28,7 @@ const DEX: ReadMe = ReadMe {
 
 1. I am currently a software engineer at [Weco AI](https://github.com/wecoai), building self-improving AI agents. Our flagship project [AIDE](https://github.com/wecoai/aideml) ranks #1 on OpenAI's MLE-bench.
 2. *academia*: Previously, I did research at Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, and Xi'an Jiaotong-Liverpool University, working on topics including IoT, privacy, deep learning, distributed ML, and blockchain/DLT.
-3. *industry*: I was a backend engineer (Rust, Go, Node.js) at [Hex Trust](https://hextrust.com), a digital asset custodian in Hong Kong. I also interned twice at The Linux Foundation on [Hyperledger](https://www.hyperledger.org/) projects. Later I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks.
+3. *industry*: I was a backend engineer (Rust, Go, Node.js) at [Hex Trust](https://hextrust.com), a digital asset custodian in Hong Kong. I also interned and mentored twice at The Linux Foundation on [Hyperledger](https://www.hyperledger.org/) projects. Later I joined the first cohort of Network School with [@balajis](https://github.com/balajis) and many amazing folks.
 4. *education*: B.Sc. in Information and Computing Sciences from University of Liverpool / Xi'an Jiaotong-Liverpool University (2015-2020).
 
 <h2 align="center"> 🎤 Talks </h2>
