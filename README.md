@@ -5,7 +5,7 @@
 ```rust
 const DEX: Profile = Profile {
     role: "AI/ML engineer",
-    focus: "agents, ML systems, code optimization",
+    focus: "self-improving agents, harness engineering, context management, eval evolution",
     hobbies: "strength training 🏋️ and surf rock guitar 🎸",
 };
 ```
@@ -19,7 +19,7 @@ const DEX: Profile = Profile {
 
 ## 📚 Research
 
-- **[AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/abs/2502.13138)** - autonomous code and ML engineering exploration
+- **[AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/abs/2502.13138)** - autonomous code and ML engineering exploration, 2025
 - **[Lightweight and unobtrusive data obfuscation at IoT edge for remote inference](https://ieeexplore.ieee.org/document/9152178)** - IEEE Internet of Things Journal, 2020
 - **[Challenges of privacy-preserving machine learning in IoT](https://dl.acm.org/doi/10.1145/3363347.3363365)** - ACM AIChallengeIoT workshop, 2019
 - **[A deep reinforcement learning framework for financial portfolio management](https://arxiv.org/abs/1706.10059)** - early work on reinforcement learning for portfolio management
