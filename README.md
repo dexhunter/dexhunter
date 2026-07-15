@@ -4,7 +4,7 @@
 
 ```rust
 const DEX: Profile = Profile {
-    role: "MTS at Weco AI",
+    role: "Member of Technical Stuff at Weco AI",
     focus: "self-improving agents, harness engineering, context management, eval evolution",
     hobbies: "strength training 🏋️ and surf rock guitar 🎸",
 };
