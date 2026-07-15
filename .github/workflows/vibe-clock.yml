@@ -1,7 +1,17 @@
 name: Update Vibe Clock Stats
 
 on:
+  schedule:
+    # The local midnight push updates the gist first; render after it in both GMT and BST.
+    - cron: "15 1 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vibe-clock-model-usage
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -12,3 +22,4 @@ jobs:
       - uses: dexhunter/vibe-clock@v1.4.0
         with:
           gist_id: ${{ secrets.VIBE_CLOCK_GIST_ID }}
+          chart_types: donut

@@ -6,9 +6,9 @@
   <line x1="20" y1="38" x2="475" y2="38" stroke="#30363d" stroke-width="0.5"/>
   <g font-family="Courier New, Courier, monospace">
     <text x="20" y="52" fill="#8b949e" font-size="12">Period:</text><text x="140" y="52" fill="#c9d1d9" font-size="12" font-weight="600">Last 30 days</text>
-    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="140" y="74" fill="#c9d1d9" font-size="12" font-weight="600">1027</text>
-    <text x="20" y="96" fill="#8b949e" font-size="12">Messages:</text><text x="140" y="96" fill="#c9d1d9" font-size="12" font-weight="600">43.4K</text>
-    <text x="20" y="118" fill="#8b949e" font-size="12">Tokens:</text><text x="140" y="118" fill="#c9d1d9" font-size="12" font-weight="600">18.2B</text>
+    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="140" y="74" fill="#c9d1d9" font-size="12" font-weight="600">1083</text>
+    <text x="20" y="96" fill="#8b949e" font-size="12">Messages:</text><text x="140" y="96" fill="#c9d1d9" font-size="12" font-weight="600">48.2K</text>
+    <text x="20" y="118" fill="#8b949e" font-size="12">Tokens:</text><text x="140" y="118" fill="#c9d1d9" font-size="12" font-weight="600">19.1B</text>
     <text x="270" y="52" fill="#8b949e" font-size="12">Favorite Model:</text><text x="390" y="52" fill="#c9d1d9" font-size="12" font-weight="600">gpt-5.6-sol</text>
     <text x="270" y="74" fill="#8b949e" font-size="12">Peak Hour:</text><text x="390" y="74" fill="#c9d1d9" font-size="12" font-weight="600">8:00</text>
     <text x="270" y="96" fill="#8b949e" font-size="12">Weekly Usage:</text><text x="390" y="96" fill="#c9d1d9" font-size="12" font-weight="600">97%</text>

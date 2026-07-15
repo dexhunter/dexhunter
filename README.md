@@ -44,16 +44,7 @@ const DEX: Profile = Profile {
 - 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum (2020)
 - 🎓 CNCF Diversity Scholarship, KubeCon + CloudNativeCon China (2018)
 
-## 📦 Legacy Work
-
-- **[TP_solutions](https://github.com/dexhunter/TP_solutions)** - solutions to every exercise in Think Python
-- **[mercurius](https://github.com/dexhunter/mercurius)** - quantitative finance research with deep reinforcement learning
-- **[hackxfdu-DSharing](https://github.com/dexhunter/hackxfdu-DSharing)** - Hack x FDU 2017 project
-- **[DeepLearningTRexRush](https://github.com/dexhunter/DeepLearningTRexRush)** - T-Rex Rush with deep reinforcement learning
-- **[smart-contract-comparison](https://github.com/dexhunter/smart-contract-comparison)** - smart contracts and chaincode grouped by industry
-- **[yaacv](https://github.com/dexhunter/yaacv)** - Yet Another Academic CV template
-
-## ⏱ Vibe Clock
+## ⏱ [Vibe Clock](https://github.com/dexhunter/vibe-clock)
 
 <p align="center">
   <img src="images/vibe-clock-card.svg" alt="Vibe Clock Stats" />
