@@ -18,34 +18,6 @@ const DEX: Profile = Profile {
   <a href="mailto:i@dex.moe"><img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-## 🚀 Current Projects
-
-### 🤖 AI and ML
-
-- **[AIDE](https://github.com/wecoai/aideml)** - AI-driven exploration in the space of code for ML engineering and AI R&D
-- **[weco-cli](https://github.com/wecoai/weco-cli)** - self-improving code for GPU kernels, ML models, feature engineering, and prompts
-- **[OpenAI Parameter Golf](https://github.com/openai/parameter-golf)** - merged record-track work across quantization, test-time training, recurrence, data transforms, and compression:
-  [#1060](https://github.com/openai/parameter-golf/pull/1060),
-  [#1179](https://github.com/openai/parameter-golf/pull/1179),
-  [#1285](https://github.com/openai/parameter-golf/pull/1285),
-  [#1413](https://github.com/openai/parameter-golf/pull/1413),
-  [#1514](https://github.com/openai/parameter-golf/pull/1514),
-  [#1626](https://github.com/openai/parameter-golf/pull/1626),
-  [#1736](https://github.com/openai/parameter-golf/pull/1736),
-  [#1769](https://github.com/openai/parameter-golf/pull/1769)
-- **[OpenAI MLE-Bench](https://github.com/openai/mle-bench)** - benchmark contributions for evaluating ML engineering agents
-
-### 🛠️ Developer Tools
-
-- **[seedance2-skill](https://github.com/dexhunter/seedance2-skill)** - prompts for generating videos with Seedance 2.0
-- **[kaggle-mcp](https://github.com/dexhunter/kaggle-mcp)** - an MCP server for Kaggle APIs
-- **[google-scholar-badge](https://github.com/dexhunter/google-scholar-badge)** - citation counts in a GitHub badge
-
-### 🤝 Open-Source Contributions
-
-- **Research agents** - contributions to [SakanaAI/ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve), [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent), and [facebookresearch/aira-dojo](https://github.com/facebookresearch/aira-dojo)
-- **[Hyperledger Fabric Python SDK](https://github.com/hyperledger/fabric-sdk-py)** - former maintainer and mentor
-
 ## 📚 Research
 
 - **[AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/abs/2502.13138)** - autonomous code and ML engineering exploration
