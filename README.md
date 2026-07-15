@@ -6,7 +6,6 @@
 const DEX: Profile = Profile {
     role: "AI/ML engineer",
     focus: "agents, ML systems, code optimization",
-    tools: "Python, Rust, Go, TypeScript, SQL",
     hobbies: "strength training 🏋️ and surf rock guitar 🎸",
 };
 ```
