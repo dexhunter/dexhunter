@@ -27,6 +27,7 @@ const DEX: Profile = Profile {
 
 ## 🎤 Talks
 
+- **[Hands-on AutoResearch: Cracking OpenAI's Parameter Golf](https://yoheinakajima.github.io/aie-talks/)** (2026)
 - **[Algorithmic Trading Workshop](https://slides.dex.moe)** (2024)
 - **[Deep Learning for Power System Security Assessment](https://slides.dex.moe)** (2019)
 - **[Introduction to Hyperledger Fabric](https://slides.dex.moe)** (2019)
@@ -65,12 +66,4 @@ const DEX: Profile = Profile {
 <p align="center">
   <img src="images/vibe-clock-hourly.svg" alt="Activity by Hour" />
   <img src="images/vibe-clock-weekly.svg" alt="Activity by Day of Week" />
-</p>
-
-## 💰 Support
-
-<p align="center">
-  <a href="https://github.com/sponsors/dexhunter"><img src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=white" alt="Sponsors"></a>
-  <a href="https://etherscan.io/address/dexhunter.eth"><img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="dexhunter.eth"></a>
-  <a href="https://explorer.solana.com/address/dexhunter.sol"><img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=Solana&logoColor=white" alt="dexhunter.sol"></a>
 </p>
