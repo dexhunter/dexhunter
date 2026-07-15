@@ -4,8 +4,8 @@
 
 ```rust
 const DEX: Profile = Profile {
-    role: "AI/ML engineer",
-    focus: "self-improving agents, harness engineering, context management, eval evolution",
+    industry_focus: "self-improving agents, harness engineering, context management, eval evolution",
+    academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technology, Self-Improving AI",
     hobbies: "strength training 🏋️ and surf rock guitar 🎸",
 };
 ```
@@ -22,7 +22,7 @@ const DEX: Profile = Profile {
 - **[AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/abs/2502.13138)** - autonomous code and ML engineering exploration, 2025
 - **[Lightweight and unobtrusive data obfuscation at IoT edge for remote inference](https://ieeexplore.ieee.org/document/9152178)** - IEEE Internet of Things Journal, 2020
 - **[Challenges of privacy-preserving machine learning in IoT](https://dl.acm.org/doi/10.1145/3363347.3363365)** - ACM AIChallengeIoT workshop, 2019
-- **[A deep reinforcement learning framework for financial portfolio management](https://arxiv.org/abs/1706.10059)** - early work on reinforcement learning for portfolio management
+- **[A deep reinforcement learning framework for financial portfolio management](https://arxiv.org/abs/1706.10059)** - early work on reinforcement learning for portfolio management, 2017
 
 ## 🎤 Talks
 
@@ -39,7 +39,7 @@ const DEX: Profile = Profile {
 - 🥈 2nd Prize, XJTLU Blockchain Technology Application Innovation & Entrepreneurship Challenge (2020)
 - 🥈 2nd Prize, XJTLU & PNP AI Innovation Hackathon (2018)
 - 🥉 3rd Prize, EOS Hackathon Hangzhou (individual, 2018)
-- 🥉 3rd Prize, DoraHacks x BCH Faith Hack
+- 🥉 3rd Prize, DoraHacks x BCH Faith Hack (2018)
 - 🏆 IBM Student Innovation Lab Program Award (2017)
 - 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum (2020)
 - 🎓 CNCF Diversity Scholarship, KubeCon + CloudNativeCon China (2018)
