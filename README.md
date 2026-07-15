@@ -1,8 +1,6 @@
-# Hi, I'm Dex
-
-AI/ML engineer building self-improving agents and the systems used to test them.
-
-Currently at [Weco AI](https://github.com/wecoai), working on [AIDE](https://github.com/wecoai/aideml) and [weco-cli](https://github.com/wecoai/weco-cli). I like small models, measurable experiments, and code that gets better through search.
+<div align="center">
+<h1 align="center">Hi👋 Dex here. Welcome to my page!</h1>
+</div>
 
 ```rust
 const DEX: Profile = Profile {
