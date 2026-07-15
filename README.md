@@ -4,8 +4,8 @@
 
 ```rust
 const DEX: Profile = Profile {
-    industry_focus: "self-improving agents, harness engineering, context management, eval evolution",
-    academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technology, Self-Improving AI",
+    role: "MTS at Weco AI",
+    focus: "self-improving agents, harness engineering, context management, eval evolution",
     hobbies: "strength training 🏋️ and surf rock guitar 🎸",
 };
 ```
