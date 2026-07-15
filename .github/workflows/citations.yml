@@ -1,0 +1,57 @@
+name: Update Citation Badge
+
+on:
+  schedule:
+    # About 62 requests in a 31-day month, below SerpApi's 100-request tier.
+    - cron: "17 0,12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: citation-badge
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update Google Scholar citation badge
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          GOOGLE_SCHOLAR_USER_ID: 8Ez_u30AAAAJ
+        run: |
+          response="$(curl --silent --show-error --get \
+            --data-urlencode "engine=google_scholar_author" \
+            --data-urlencode "author_id=${GOOGLE_SCHOLAR_USER_ID}" \
+            --data-urlencode "api_key=${SERPAPI_API_KEY}" \
+            --data-urlencode "hl=en" \
+            https://serpapi.com/search.json)"
+
+          if ! citations="$(jq --exit-status --raw-output \
+            '.cited_by.value // ([.cited_by.table[]?.citations.all] | first)' \
+            <<<"${response}")"; then
+            echo "::warning::SerpApi did not return a citation count; keeping the last badge value."
+            exit 0
+          fi
+
+          jq --null-input \
+            --arg message "${citations}" \
+            '{
+              schemaVersion: 1,
+              label: "Citations",
+              message: $message,
+              color: "blue"
+            }' > images/google-scholar-citations.json
+
+      - name: Commit updated citation badge
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add images/google-scholar-citations.json
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update citation badge"
+          git push
