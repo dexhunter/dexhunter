@@ -2,14 +2,6 @@
 <h1 align="center">Hi👋 Dex here. Welcome to my page!</h1>
 </div>
 
-```rust
-const DEX: Profile = Profile {
-    role: "Member of Technical Stuff at Weco AI",
-    focus: "self-improving agents, harness engineering, context management, eval evolution",
-    hobbies: "strength training 🏋️ and surf rock guitar 🎸",
-};
-```
-
 <p align="center">
   <a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=flat-square" alt="GitHub"></a>
   <a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmaster%2Fimages%2Fgoogle-scholar-citations.json&style=flat-square" alt="Google Scholar citations"></a>
@@ -17,12 +9,27 @@ const DEX: Profile = Profile {
   <a href="mailto:i@dex.moe"><img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
+## 👨‍💻 About
+
+I'm a Member of Technical Stuff at [Weco AI](https://github.com/wecoai). I work on self-improving coding agents, especially their eval loops, harnesses, and context management. I built [@Aiden](https://github.com/aiden-weco), which we use to optimize open-source projects. In 2026, Aiden became the [#1 contributor to OpenAI's Parameter Golf](https://www.weco.ai/blog/parameter-golf-aiden).
+
+Before Weco, I built backend systems in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com) and worked on [Hyperledger](https://www.hyperledger.org/) projects through The Linux Foundation. I was also in the first cohort of Network School with [@balajis](https://github.com/balajis).
+
+My research took me through Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, and Xi'an Jiaotong-Liverpool University. I studied Information and Computing Sciences at the University of Liverpool and XJTLU.
+
+## 🚀 Selected work
+
+- **[AIDE](https://github.com/wecoai/aideml)** - the open-source tree-search agent behind my 2025 paper; it writes, evaluates, and improves machine learning code
+- **[Weco](https://github.com/wecoai/weco-cli)** - a CLI for running code optimization against your own evaluation metric
+- **[seedance2-skill](https://github.com/dexhunter/seedance2-skill)** - a prompt-building skill for Seedance 2.0 video generation
+- **[Vibe Clock](https://github.com/dexhunter/vibe-clock)** - WakaTime-style usage tracking for Claude Code, Codex, and OpenCode
+
 ## 📚 Research
 
-- **[AIDE: AI-Driven Exploration in the Space of Code](https://arxiv.org/abs/2502.13138)** - autonomous code and ML engineering exploration, 2025
-- **[Lightweight and unobtrusive data obfuscation at IoT edge for remote inference](https://ieeexplore.ieee.org/document/9152178)** - IEEE Internet of Things Journal, 2020
-- **[Challenges of privacy-preserving machine learning in IoT](https://dl.acm.org/doi/10.1145/3363347.3363365)** - ACM AIChallengeIoT workshop, 2019
-- **[A deep reinforcement learning framework for financial portfolio management](https://arxiv.org/abs/1706.10059)** - early work on reinforcement learning for portfolio management, 2017
+- *AIDE: AI-Driven Exploration in the Space of Code* ([arXiv](https://arxiv.org/abs/2502.13138)), arXiv preprint, 2025
+- *Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference* ([DOI](https://doi.org/10.1109/JIOT.2020.2983278)), IEEE Internet of Things Journal, 2020
+- *Challenges of Privacy-Preserving Machine Learning in IoT* ([DOI](https://doi.org/10.1145/3363347.3363357)), ACM AIChallengeIoT, 2019
+- *A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem* ([arXiv](https://arxiv.org/abs/1706.10059)), arXiv preprint, 2017
 
 ## 🎤 Talks
 
