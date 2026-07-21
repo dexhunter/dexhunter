@@ -13,7 +13,7 @@
 
 I'm a Member of Technical Stuff at [Weco AI](https://github.com/wecoai). I work on self-improving coding agents, especially their eval loops, harnesses, and context management. I built [@Aiden](https://github.com/aiden-weco), which we use to optimize open-source projects. In 2026, Aiden became the [#1 contributor to OpenAI's Parameter Golf](https://www.weco.ai/blog/parameter-golf-aiden).
 
-Before Weco, I built backend systems in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com) and worked on [Hyperledger](https://www.hyperledger.org/) projects through The Linux Foundation. I was also in the first cohort of Network School with [@balajis](https://github.com/balajis).
+Before Weco, I built backend trading systems in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com) and worked on [Hyperledger](https://www.hyperledger.org/) projects through The Linux Foundation. I was also in the first cohort of Network School with [@balajis](https://github.com/balajis).
 
 My research took me through Nanyang Technological University, Zhejiang University, Hong Kong Baptist University, and Xi'an Jiaotong-Liverpool University. I studied Information and Computing Sciences at the University of Liverpool and XJTLU.
 
