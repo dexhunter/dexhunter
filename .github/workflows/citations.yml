@@ -1,4 +1,4 @@
-name: Update Scholar Badges
+name: Update Citation Badge
 
 on:
   schedule:
@@ -21,13 +21,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update Google Scholar badges
+      - name: Update Google Scholar citation badge
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           GOOGLE_SCHOLAR_USER_ID: 8Ez_u30AAAAJ
         run: |
-          # One request carries citations, h-index and i10-index, so every
-          # badge below is free once this call succeeds.
           response="$(curl --silent --show-error --get \
             --data-urlencode "engine=google_scholar_author" \
             --data-urlencode "author_id=${GOOGLE_SCHOLAR_USER_ID}" \
@@ -39,18 +37,8 @@ jobs:
             reason="$(jq --raw-output '.error // "response contained no cited_by data"' \
               <<<"${response}" 2>/dev/null || echo "response was not valid JSON")"
             echo "::error::SerpApi did not return $1: ${reason}"
-            echo "The badges keep their last committed values, which are now stale."
+            echo "The badge keeps its last committed value, which is now stale."
             exit 1
-          }
-
-          write_badge() {  # $1=path  $2=label  $3=value
-            jq --null-input --arg label "$2" --arg message "$3" \
-              '{
-                schemaVersion: 1,
-                label: $label,
-                message: $message,
-                color: "blue"
-              }' > "$1"
           }
 
           # cited_by.table is a list of single-key rows in no guaranteed order,
@@ -61,18 +49,22 @@ jobs:
           }
 
           citations="$(metric citations)" || fail "a citation count"
-          h_index="$(metric h_index)"     || fail "an h-index"
 
-          write_badge images/google-scholar-citations.json "Citations" "${citations}"
-          write_badge images/google-scholar-h-index.json   "h-index"   "${h_index}"
+          jq --null-input --arg message "${citations}" \
+            '{
+              schemaVersion: 1,
+              label: "Citations",
+              message: $message,
+              color: "blue"
+            }' > images/google-scholar-citations.json
 
-          echo "citations=${citations}  h-index=${h_index}"
+          echo "citations=${citations}"
 
-      - name: Commit updated badges
+      - name: Commit updated citation badge
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add images/google-scholar-citations.json images/google-scholar-h-index.json
+          git add images/google-scholar-citations.json
           git diff --staged --quiet && exit 0
-          git commit -m "chore: update scholar badges"
+          git commit -m "chore: update citation badge"
           git push
