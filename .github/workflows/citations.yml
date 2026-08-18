@@ -1,4 +1,4 @@
-name: Update Citation Badge
+name: Update Scholar Badges
 
 on:
   schedule:
@@ -21,11 +21,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Update Google Scholar citation badge
+      - name: Update Google Scholar badges
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
           GOOGLE_SCHOLAR_USER_ID: 8Ez_u30AAAAJ
         run: |
+          # One request carries citations, h-index and i10-index, so every
+          # badge below is free once this call succeeds.
           response="$(curl --silent --show-error --get \
             --data-urlencode "engine=google_scholar_author" \
             --data-urlencode "author_id=${GOOGLE_SCHOLAR_USER_ID}" \
@@ -33,30 +35,44 @@ jobs:
             --data-urlencode "hl=en" \
             https://serpapi.com/search.json)"
 
-          if ! citations="$(jq --exit-status --raw-output \
-            '.cited_by.value // ([.cited_by.table[]?.citations.all] | first)' \
-            <<<"${response}")"; then
+          fail() {
             reason="$(jq --raw-output '.error // "response contained no cited_by data"' \
               <<<"${response}" 2>/dev/null || echo "response was not valid JSON")"
-            echo "::error::SerpApi did not return a citation count: ${reason}"
-            echo "The badge keeps its last committed value, which is now stale."
+            echo "::error::SerpApi did not return $1: ${reason}"
+            echo "The badges keep their last committed values, which are now stale."
             exit 1
-          fi
+          }
 
-          jq --null-input \
-            --arg message "${citations}" \
-            '{
-              schemaVersion: 1,
-              label: "Citations",
-              message: $message,
-              color: "blue"
-            }' > images/google-scholar-citations.json
+          write_badge() {  # $1=path  $2=label  $3=value
+            jq --null-input --arg label "$2" --arg message "$3" \
+              '{
+                schemaVersion: 1,
+                label: $label,
+                message: $message,
+                color: "blue"
+              }' > "$1"
+          }
 
-      - name: Commit updated citation badge
+          # cited_by.table is a list of single-key rows in no guaranteed order,
+          # so select the row holding the key rather than trusting position.
+          metric() {  # $1 = table key
+            jq --exit-status --raw-output --arg key "$1" \
+              '[.cited_by.table[]?[$key].all // empty] | first' <<<"${response}"
+          }
+
+          citations="$(metric citations)" || fail "a citation count"
+          h_index="$(metric h_index)"     || fail "an h-index"
+
+          write_badge images/google-scholar-citations.json "Citations" "${citations}"
+          write_badge images/google-scholar-h-index.json   "h-index"   "${h_index}"
+
+          echo "citations=${citations}  h-index=${h_index}"
+
+      - name: Commit updated badges
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add images/google-scholar-citations.json
+          git add images/google-scholar-citations.json images/google-scholar-h-index.json
           git diff --staged --quiet && exit 0
-          git commit -m "chore: update citation badge"
+          git commit -m "chore: update scholar badges"
           git push

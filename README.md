@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=flat-square" alt="GitHub"></a>
   <a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmaster%2Fimages%2Fgoogle-scholar-citations.json&style=flat-square" alt="Google Scholar citations"></a>
+  <a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmaster%2Fimages%2Fgoogle-scholar-h-index.json&style=flat-square" alt="Google Scholar h-index"></a>
   <a href="https://dex.moe"><img src="https://img.shields.io/badge/Website-dex.moe-red?style=flat-square" alt="Website"></a>
   <a href="mailto:i@dex.moe"><img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
