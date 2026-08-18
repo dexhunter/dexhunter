@@ -36,8 +36,11 @@ jobs:
           if ! citations="$(jq --exit-status --raw-output \
             '.cited_by.value // ([.cited_by.table[]?.citations.all] | first)' \
             <<<"${response}")"; then
-            echo "::warning::SerpApi did not return a citation count; keeping the last badge value."
-            exit 0
+            reason="$(jq --raw-output '.error // "response contained no cited_by data"' \
+              <<<"${response}" 2>/dev/null || echo "response was not valid JSON")"
+            echo "::error::SerpApi did not return a citation count: ${reason}"
+            echo "The badge keeps its last committed value, which is now stale."
+            exit 1
           fi
 
           jq --null-input \
