@@ -137,10 +137,14 @@ def stars(count: int) -> str:
     return f"{tenths // 10}.{tenths % 10}k"
 
 
-def row(count: int, prs: int, repo: str, url: str, latest: str) -> str:
+def row(count: int, prs: int, repo: str, url: str, latest: str, avatar: str) -> str:
     when = f"{MONTHS[int(latest[5:7]) - 1]} {latest[:4]}"
     search = f"{url}/pulls?q=is%3Apr+author%3A{USER}+is%3Amerged"
-    return f"| [{repo}]({url}) | {stars(count)} | [{prs}]({search}) | {when} |"
+    # The owner avatar doubles as the project's logo. It comes from metadata we
+    # already fetched, so it costs no extra request, and a 40px source keeps it
+    # crisp on retina while rendering at 16px.
+    icon = f'<img src="{avatar}&s=40" width="16" height="16" alt=""> '
+    return f"| {icon}[{repo}]({url}) | {stars(count)} | [{prs}]({search}) | {when} |"
 
 
 def table(projects: list[tuple]) -> list[str]:
@@ -173,7 +177,7 @@ def main() -> None:
     other: list[tuple] = []
     for meta, merges in projects_by_name.values():
         project = (meta["stargazers_count"], len(merges), meta["full_name"], meta["html_url"],
-                   max(merges.values()))
+                   max(merges.values()), meta["owner"]["avatar_url"])
         topics = {topic.lower() for topic in meta.get("topics") or ()}
         is_ai = bool(topics & AI_TOPICS) or meta["full_name"].lower() in AI_PROJECTS
         (ai if is_ai else other).append(project)

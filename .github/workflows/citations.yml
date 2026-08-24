@@ -2,8 +2,8 @@ name: Update Citation Badge
 
 on:
   schedule:
-    # Weekly: about 4 requests a month, leaving the rest of SerpApi's
-    # 100-request free tier for the google-scholar-badge service.
+    # Weekly: about 4 requests a month against SerpApi's 250/month plan.
+    # It ran twice daily until 2026-08-18, which drained a whole cycle.
     # Use workflow_dispatch for an on-demand refresh between runs.
     - cron: "17 0 * * 1"
   workflow_dispatch:
