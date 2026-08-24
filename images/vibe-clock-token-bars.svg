@@ -1,16 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="316" viewBox="0 0 495 316">
-  <rect width="493" height="314" x="1" y="1" rx="4.5" fill="#0d1117" stroke="#30363d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="156" viewBox="0 0 495 156">
+  <rect width="493" height="154" x="1" y="1" rx="4.5" fill="#0d1117" stroke="#30363d"/>
   <text x="20" y="28" fill="#58a6ff" font-size="14" font-weight="700" font-family="Arial, Helvetica, sans-serif">
     Token Usage by Model
   </text>
   <g font-family="Courier New, Courier, monospace">
-    <text x="20" y="63" fill="#c9d1d9" font-size="11">gpt-5.6-sol</text><rect x="190" y="50" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="50" width="250" height="18" rx="3" fill="#58a6ff"/><text x="448" y="63" fill="#8b949e" font-size="10">1890.1B</text>
-    <text x="20" y="95" fill="#c9d1d9" font-size="11">gpt-5.6-terra</text><rect x="190" y="82" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="82" width="2" height="18" rx="3" fill="#3fb950"/><text x="448" y="95" fill="#8b949e" font-size="10">17.6B</text>
-    <text x="20" y="127" fill="#c9d1d9" font-size="11">gpt-5.6-luna</text><rect x="190" y="114" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="114" width="2" height="18" rx="3" fill="#d29922"/><text x="448" y="127" fill="#8b949e" font-size="10">8.7B</text>
-    <text x="20" y="159" fill="#c9d1d9" font-size="11">claude-fable-5</text><rect x="190" y="146" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="146" width="2" height="18" rx="3" fill="#f85149"/><text x="448" y="159" fill="#8b949e" font-size="10">2.6B</text>
-    <text x="20" y="191" fill="#c9d1d9" font-size="11">claude-opus-5</text><rect x="190" y="178" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="178" width="2" height="18" rx="3" fill="#bc8cff"/><text x="448" y="191" fill="#8b949e" font-size="10">1.3B</text>
-    <text x="20" y="223" fill="#c9d1d9" font-size="11">gpt-5.5</text><rect x="190" y="210" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="210" width="2" height="18" rx="3" fill="#39d353"/><text x="448" y="223" fill="#8b949e" font-size="10">222M</text>
-    <text x="20" y="255" fill="#c9d1d9" font-size="11">claude-sonnet-5</text><rect x="190" y="242" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="242" width="2" height="18" rx="3" fill="#db6d28"/><text x="448" y="255" fill="#8b949e" font-size="10">418.5K</text>
-    <text x="20" y="287" fill="#c9d1d9" font-size="11">claude-haiku-4-5-20251001</text><rect x="190" y="274" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="274" width="2" height="18" rx="3" fill="#f778ba"/><text x="448" y="287" fill="#8b949e" font-size="10">70.8K</text>
+    <text x="20" y="63" fill="#c9d1d9" font-size="11">OpenAI</text><rect x="190" y="50" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="50" width="250" height="18" rx="3" fill="#58a6ff"/><text x="448" y="63" fill="#8b949e" font-size="10">21.4B</text>
+    <text x="20" y="95" fill="#c9d1d9" font-size="11">Claude</text><rect x="190" y="82" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="82" width="80" height="18" rx="3" fill="#3fb950"/><text x="448" y="95" fill="#8b949e" font-size="10">6.8B</text>
+    <text x="20" y="127" fill="#c9d1d9" font-size="11">Other</text><rect x="190" y="114" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="114" width="2" height="18" rx="3" fill="#d29922"/><text x="448" y="127" fill="#8b949e" font-size="10">19.2M</text>
   </g>
 </svg>

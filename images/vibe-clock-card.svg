@@ -5,12 +5,12 @@
   </text>
   <line x1="20" y1="38" x2="475" y2="38" stroke="#30363d" stroke-width="0.5"/>
   <g font-family="Courier New, Courier, monospace">
-    <text x="20" y="52" fill="#8b949e" font-size="12">Sessions:</text><text x="170" y="52" fill="#c9d1d9" font-size="12" font-weight="600">1294</text>
-    <text x="20" y="74" fill="#8b949e" font-size="12">Active Days:</text><text x="170" y="74" fill="#c9d1d9" font-size="12" font-weight="600">0</text>
-    <text x="20" y="96" fill="#8b949e" font-size="12">Top Model Family:</text><text x="170" y="96" fill="#c9d1d9" font-size="12" font-weight="600">gpt-5.6-sol</text>
-    <text x="20" y="118" fill="#8b949e" font-size="12">Active Agents:</text><text x="170" y="118" fill="#c9d1d9" font-size="12" font-weight="600">claude_code, codex</text>
+    <text x="20" y="52" fill="#8b949e" font-size="12">Agent Time:</text><text x="170" y="52" fill="#c9d1d9" font-size="12" font-weight="600">331.7 hrs</text>
+    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="170" y="74" fill="#c9d1d9" font-size="12" font-weight="600">1303</text>
+    <text x="20" y="96" fill="#8b949e" font-size="12">Active Days:</text><text x="170" y="96" fill="#c9d1d9" font-size="12" font-weight="600">30</text>
+    <text x="20" y="118" fill="#8b949e" font-size="12">Top Model Family:</text><text x="170" y="118" fill="#c9d1d9" font-size="12" font-weight="600">OpenAI</text>
   </g>
   <text x="20" y="146" fill="#8b949e" font-size="10" font-family="Arial, Helvetica, sans-serif">
-    Last 30 complete days · Updated 2026-08-23
+    Last 30 complete days · Updated 2026-08-24
   </text>
 </svg>
