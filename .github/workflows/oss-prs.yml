@@ -1,0 +1,41 @@
+name: Update Open Source PRs
+
+on:
+  schedule:
+    # Monday and Thursday, hours clear of the citation (Mon 00:17) and
+    # vibe-clock (daily 01:15) pushes so two jobs never race to push master.
+    - cron: "41 3 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: oss-prs
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # setup-uv stopped publishing floating major tags after v7, so `@v10`
+      # does not resolve; pin the exact release by SHA, as upstream documents.
+      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+
+      - name: Rebuild the open source table
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: uv run --script scripts/oss_prs.py
+
+      - name: Commit updated table
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md images/oss-prs.json
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: update open source PR table"
+          # Three scheduled jobs push to master; without a rebase a job that
+          # loses the race fails after doing all its work and drops the update.
+          git pull --rebase --quiet origin master
+          git push
