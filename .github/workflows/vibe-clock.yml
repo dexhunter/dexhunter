@@ -22,4 +22,4 @@ jobs:
       - uses: dexhunter/vibe-clock@v1.4.1
         with:
           gist_id: ${{ secrets.VIBE_CLOCK_GIST_ID }}
-          chart_types: donut
+          chart_types: card,donut,token_bars,hourly,weekly
