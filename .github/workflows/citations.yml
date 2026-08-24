@@ -21,6 +21,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Report SerpApi quota
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+        run: |
+          # /account does not consume a search, so this is free to call. Without
+          # it an exhausted plan only ever surfaces as the next run's failure.
+          account="$(curl --silent --show-error --get \
+            --data-urlencode "api_key=${SERPAPI_API_KEY}" \
+            https://serpapi.com/account)"
+          left="$(jq --raw-output '.total_searches_left // "unknown"' <<<"${account}")"
+          echo "SerpApi searches left this cycle: ${left}"
+          jq --raw-output '"used this month: \(.this_month_usage // "?")  plan limit: \(.searches_per_month // "?")"' <<<"${account}" || true
+          if [ "${left}" != "unknown" ] && [ "${left}" -lt 10 ] 2>/dev/null; then
+            echo "::warning::Only ${left} SerpApi searches remain; the badge will go stale when they run out."
+          fi
+
       - name: Update Google Scholar citation badge
         env:
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
