@@ -1,17 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="155" viewBox="0 0 495 155">
-  <rect width="493" height="153" x="1" y="1" rx="4.5" fill="#0d1117" stroke="#30363d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="158" viewBox="0 0 495 158">
+  <rect width="493" height="156" x="1" y="1" rx="4.5" fill="#0d1117" stroke="#30363d"/>
   <text x="20" y="30" fill="#58a6ff" font-size="16" font-weight="700" font-family="Arial, Helvetica, sans-serif">
     ⏱ Vibe Clock Stats
   </text>
   <line x1="20" y1="38" x2="475" y2="38" stroke="#30363d" stroke-width="0.5"/>
   <g font-family="Courier New, Courier, monospace">
-    <text x="20" y="52" fill="#8b949e" font-size="12">Period:</text><text x="140" y="52" fill="#c9d1d9" font-size="12" font-weight="600">Last 30 days</text>
-    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="140" y="74" fill="#c9d1d9" font-size="12" font-weight="600">1083</text>
-    <text x="20" y="96" fill="#8b949e" font-size="12">Messages:</text><text x="140" y="96" fill="#c9d1d9" font-size="12" font-weight="600">48.2K</text>
-    <text x="20" y="118" fill="#8b949e" font-size="12">Tokens:</text><text x="140" y="118" fill="#c9d1d9" font-size="12" font-weight="600">19.1B</text>
-    <text x="270" y="52" fill="#8b949e" font-size="12">Favorite Model:</text><text x="390" y="52" fill="#c9d1d9" font-size="12" font-weight="600">gpt-5.6-sol</text>
-    <text x="270" y="74" fill="#8b949e" font-size="12">Peak Hour:</text><text x="390" y="74" fill="#c9d1d9" font-size="12" font-weight="600">8:00</text>
-    <text x="270" y="96" fill="#8b949e" font-size="12">Weekly Usage:</text><text x="390" y="96" fill="#c9d1d9" font-size="12" font-weight="600">97%</text>
-    <text x="270" y="118" fill="#8b949e" font-size="12">Resets:</text><text x="390" y="118" fill="#c9d1d9" font-size="12" font-weight="600">Jul 21, 21:37</text>
+    <text x="20" y="52" fill="#8b949e" font-size="12">Sessions:</text><text x="170" y="52" fill="#c9d1d9" font-size="12" font-weight="600">1294</text>
+    <text x="20" y="74" fill="#8b949e" font-size="12">Active Days:</text><text x="170" y="74" fill="#c9d1d9" font-size="12" font-weight="600">0</text>
+    <text x="20" y="96" fill="#8b949e" font-size="12">Top Model Family:</text><text x="170" y="96" fill="#c9d1d9" font-size="12" font-weight="600">gpt-5.6-sol</text>
+    <text x="20" y="118" fill="#8b949e" font-size="12">Active Agents:</text><text x="170" y="118" fill="#c9d1d9" font-size="12" font-weight="600">claude_code, codex</text>
   </g>
+  <text x="20" y="146" fill="#8b949e" font-size="10" font-family="Arial, Helvetica, sans-serif">
+    Last 30 complete days · Updated 2026-08-23
+  </text>
 </svg>
