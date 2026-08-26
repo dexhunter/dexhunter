@@ -4,8 +4,8 @@
     Token Usage by Model
   </text>
   <g font-family="Courier New, Courier, monospace">
-    <text x="20" y="63" fill="#c9d1d9" font-size="11">OpenAI</text><rect x="190" y="50" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="50" width="250" height="18" rx="3" fill="#58a6ff"/><text x="448" y="63" fill="#8b949e" font-size="10">21.4B</text>
-    <text x="20" y="95" fill="#c9d1d9" font-size="11">Claude</text><rect x="190" y="82" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="82" width="80" height="18" rx="3" fill="#3fb950"/><text x="448" y="95" fill="#8b949e" font-size="10">6.8B</text>
+    <text x="20" y="63" fill="#c9d1d9" font-size="11">OpenAI</text><rect x="190" y="50" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="50" width="250" height="18" rx="3" fill="#58a6ff"/><text x="448" y="63" fill="#8b949e" font-size="10">21.7B</text>
+    <text x="20" y="95" fill="#c9d1d9" font-size="11">Claude</text><rect x="190" y="82" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="82" width="84" height="18" rx="3" fill="#3fb950"/><text x="448" y="95" fill="#8b949e" font-size="10">7.3B</text>
     <text x="20" y="127" fill="#c9d1d9" font-size="11">Other</text><rect x="190" y="114" width="250" height="18" rx="3" fill="#21262d"/><rect x="190" y="114" width="2" height="18" rx="3" fill="#d29922"/><text x="448" y="127" fill="#8b949e" font-size="10">19.2M</text>
   </g>
 </svg>
