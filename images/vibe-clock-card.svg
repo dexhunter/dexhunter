@@ -5,8 +5,8 @@
   </text>
   <line x1="20" y1="38" x2="475" y2="38" stroke="#30363d" stroke-width="0.5"/>
   <g font-family="Courier New, Courier, monospace">
-    <text x="20" y="52" fill="#8b949e" font-size="12">Agent Time:</text><text x="170" y="52" fill="#c9d1d9" font-size="12" font-weight="600">314.8 hrs</text>
-    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="170" y="74" fill="#c9d1d9" font-size="12" font-weight="600">1227</text>
+    <text x="20" y="52" fill="#8b949e" font-size="12">Agent Time:</text><text x="170" y="52" fill="#c9d1d9" font-size="12" font-weight="600">301.8 hrs</text>
+    <text x="20" y="74" fill="#8b949e" font-size="12">Sessions:</text><text x="170" y="74" fill="#c9d1d9" font-size="12" font-weight="600">1113</text>
     <text x="20" y="96" fill="#8b949e" font-size="12">Active Days:</text><text x="170" y="96" fill="#c9d1d9" font-size="12" font-weight="600">30</text>
     <text x="20" y="118" fill="#8b949e" font-size="12">Top Model Family:</text><text x="170" y="118" fill="#c9d1d9" font-size="12" font-weight="600">OpenAI</text>
   </g>
