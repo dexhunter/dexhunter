@@ -17,8 +17,8 @@
     <rect x="237.3" y="79.2" width="50.4" height="85.8" rx="3" fill="#3fb950"><title>Thu: 186 sessions</title></rect>
     <text x="262.5" y="75.2" text-anchor="middle" fill="#8b949e" font-size="9">186</text>
     <rect x="299.7" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="299.7" y="107.8" width="50.4" height="57.2" rx="3" fill="#3fb950"><title>Fri: 124 sessions</title></rect>
-    <text x="324.9" y="103.8" text-anchor="middle" fill="#8b949e" font-size="9">124</text>
+    <rect x="299.7" y="116.1" width="50.4" height="48.9" rx="3" fill="#3fb950"><title>Fri: 106 sessions</title></rect>
+    <text x="324.9" y="112.1" text-anchor="middle" fill="#8b949e" font-size="9">106</text>
     <rect x="362.1" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
     <rect x="362.1" y="45.0" width="50.4" height="120.0" rx="3" fill="#3fb950"><title>Sat: 260 sessions</title></rect>
     <text x="387.4" y="41.0" text-anchor="middle" fill="#8b949e" font-size="9">260</text>
