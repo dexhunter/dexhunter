@@ -69,7 +69,7 @@ README = ROOT / "README.md"
 # Shields.io endpoint badge, same shape as images/google-scholar-citations.json.
 BADGE = ROOT / "images" / "oss-prs.json"
 MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
-HEADER = ["| Project | Stars | Merged PRs | Latest |", "| --- | ---: | ---: | --- |"]
+HEADER = ["| Project | Stars | Contributions | Latest |", "| --- | ---: | --- | --- |"]
 
 
 def get(path: str, **params: object) -> dict:
@@ -137,14 +137,14 @@ def stars(count: int) -> str:
     return f"{tenths // 10}.{tenths % 10}k"
 
 
-def row(count: int, prs: int, repo: str, url: str, latest: str, avatar: str) -> str:
+def row(count: int, _prs: int, repo: str, url: str, latest: str, avatar: str) -> str:
     when = f"{MONTHS[int(latest[5:7]) - 1]} {latest[:4]}"
     search = f"{url}/pulls?q=is%3Apr+author%3A{USER}+is%3Amerged"
     # The owner avatar doubles as the project's logo. It comes from metadata we
     # already fetched, so it costs no extra request, and a 40px source keeps it
     # crisp on retina while rendering at 16px.
     icon = f'<img src="{avatar}&s=40" width="16" height="16" alt=""> '
-    return f"| {icon}[{repo}]({url}) | {stars(count)} | [{prs}]({search}) | {when} |"
+    return f"| {icon}[{repo}]({url}) | {stars(count)} | [View PRs]({search}) | {when} |"
 
 
 def table(projects: list[tuple]) -> list[str]:
@@ -189,7 +189,7 @@ def main() -> None:
 
     count = sum(project[1] for project in ai + other)
     block = [
-        f"**{count} merged pull requests across {len(ai) + len(other)} open source "
+        f"**Contributions to {len(ai) + len(other)} open source "
         f"projects — {len(ai)} of them AI or agent infrastructure.**",
         "",
         "### AI and agent infrastructure",
@@ -213,7 +213,7 @@ def main() -> None:
     )
     BADGE.write_text(
         json.dumps(
-            {"schemaVersion": 1, "label": "Merged PRs", "message": str(count), "color": "blue"},
+            {"schemaVersion": 1, "label": "Open source projects", "message": str(len(ai) + len(other)), "color": "blue"},
             indent=2,
         ) + "\n",
         encoding="utf-8", newline="\n",
