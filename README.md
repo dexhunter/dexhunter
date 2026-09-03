@@ -122,7 +122,7 @@ Citation counts are on [Google Scholar](https://scholar.google.co.jp/citations?u
 ## 🎤 Talks
 
 - **Hands-on AutoResearch: Cracking OpenAI's Parameter Golf** — workshop with the Weco AI team, [AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/2026/schedule)
-- **[Algorithmic Trading Workshop](https://slides.dex.moe)** (2024)
+- **[Algorithmic Trading Workshop](https://slides.dex.moe)** — Network School, first cohort (2024)
 - **[Deep Learning for Power System Security Assessment](https://slides.dex.moe)** (2019)
 - **[Introduction to Hyperledger Fabric](https://slides.dex.moe)** (2019)
 
