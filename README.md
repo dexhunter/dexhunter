@@ -35,7 +35,7 @@ Every project below links to its merged pull requests on GitHub, so anything her
 
 <!-- OSS-PRS:START -->
 
-**Contributions to 52 open source projects — 29 of them AI or agent infrastructure.**
+**Contributions to 53 open source projects — 29 of them AI or agent infrastructure.**
 
 ### AI and agent infrastructure
 
@@ -52,7 +52,7 @@ Every project below links to its merged pull requests on GitHub, so anything her
 | <img src="https://avatars.githubusercontent.com/u/110818415?v=4&s=40" width="16" height="16" alt=""> [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai) | 20k | [View PRs](https://github.com/pydantic/pydantic-ai/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2026 |
 | <img src="https://avatars.githubusercontent.com/u/19834515?v=4&s=40" width="16" height="16" alt=""> [lllyasviel/style2paints](https://github.com/lllyasviel/style2paints) | 18k | [View PRs](https://github.com/lllyasviel/style2paints/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2017 |
 | <img src="https://avatars.githubusercontent.com/u/169612734?v=4&s=40" width="16" height="16" alt=""> [pipecat-ai/pipecat](https://github.com/pipecat-ai/pipecat) | 15k | [View PRs](https://github.com/pipecat-ai/pipecat/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2026 |
-| <img src="https://avatars.githubusercontent.com/u/6154722?v=4&s=40" width="16" height="16" alt=""> [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | 14k | [View PRs](https://github.com/microsoft/RD-Agent/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Sep 2025 |
+| <img src="https://avatars.githubusercontent.com/u/6154722?v=4&s=40" width="16" height="16" alt=""> [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent) | 15k | [View PRs](https://github.com/microsoft/RD-Agent/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Sep 2025 |
 | <img src="https://avatars.githubusercontent.com/u/177023663?v=4&s=40" width="16" height="16" alt=""> [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) | 12k | [View PRs](https://github.com/tadata-org/fastapi_mcp/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Mar 2025 |
 | <img src="https://avatars.githubusercontent.com/u/813142?v=4&s=40" width="16" height="16" alt=""> [phillipi/pix2pix](https://github.com/phillipi/pix2pix) | 11k | [View PRs](https://github.com/phillipi/pix2pix/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jun 2017 |
 | <img src="https://avatars.githubusercontent.com/u/124114301?v=4&s=40" width="16" height="16" alt=""> [BoundaryML/baml](https://github.com/BoundaryML/baml) | 9.1k | [View PRs](https://github.com/BoundaryML/baml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
@@ -72,7 +72,7 @@ Every project below links to its merged pull requests on GitHub, so anything her
 | <img src="https://avatars.githubusercontent.com/u/132215366?v=4&s=40" width="16" height="16" alt=""> [WecoAI/aideml](https://github.com/WecoAI/aideml) | 1.5k | [View PRs](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2026 |
 | <img src="https://avatars.githubusercontent.com/u/140988036?v=4&s=40" width="16" height="16" alt=""> [SakanaAI/ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve) | 1.4k | [View PRs](https://github.com/SakanaAI/ShinkaEvolve/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
 | <img src="https://avatars.githubusercontent.com/u/66310692?v=4&s=40" width="16" height="16" alt=""> [tongjingqi/AI-Can-Learn-Scientific-Taste](https://github.com/tongjingqi/AI-Can-Learn-Scientific-Taste) | 432 | [View PRs](https://github.com/tongjingqi/AI-Can-Learn-Scientific-Taste/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Mar 2026 |
-| <img src="https://avatars.githubusercontent.com/u/16943930?v=4&s=40" width="16" height="16" alt=""> [facebookresearch/aira-dojo](https://github.com/facebookresearch/aira-dojo) | 165 | [View PRs](https://github.com/facebookresearch/aira-dojo/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2025 |
+| <img src="https://avatars.githubusercontent.com/u/16943930?v=4&s=40" width="16" height="16" alt=""> [facebookresearch/aira-dojo](https://github.com/facebookresearch/aira-dojo) | 167 | [View PRs](https://github.com/facebookresearch/aira-dojo/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2025 |
 | <img src="https://avatars.githubusercontent.com/u/132215366?v=4&s=40" width="16" height="16" alt=""> [WecoAI/weco-cli](https://github.com/WecoAI/weco-cli) | 94 | [View PRs](https://github.com/WecoAI/weco-cli/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Sep 2025 |
 | <img src="https://avatars.githubusercontent.com/u/11850255?v=4&s=40" width="16" height="16" alt=""> [JeanKaddour/sokoban_speedrun](https://github.com/JeanKaddour/sokoban_speedrun) | 31 | [View PRs](https://github.com/JeanKaddour/sokoban_speedrun/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2026 |
 | <img src="https://avatars.githubusercontent.com/u/263072830?v=4&s=40" width="16" height="16" alt=""> [openbydesign/lush](https://github.com/openbydesign/lush) | 3 | [View PRs](https://github.com/openbydesign/lush/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
@@ -80,7 +80,7 @@ Every project below links to its merged pull requests on GitHub, so anything her
 </details>
 
 <details>
-<summary>23 projects outside AI</summary>
+<summary>24 projects outside AI</summary>
 
 | Project | Stars | Contributions | Latest |
 | --- | ---: | --- | --- |
@@ -95,9 +95,10 @@ Every project below links to its merged pull requests on GitHub, so anything her
 | <img src="https://avatars.githubusercontent.com/u/1403074?v=4&s=40" width="16" height="16" alt=""> [mikedh/trimesh](https://github.com/mikedh/trimesh) | 3.7k | [View PRs](https://github.com/mikedh/trimesh/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
 | <img src="https://avatars.githubusercontent.com/u/15976103?v=4&s=40" width="16" height="16" alt=""> [yihong0618/GitHubPoster](https://github.com/yihong0618/GitHubPoster) | 1.9k | [View PRs](https://github.com/yihong0618/GitHubPoster/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jun 2021 |
 | <img src="https://avatars.githubusercontent.com/u/21127168?v=4&s=40" width="16" height="16" alt=""> [TA-Lib/ta-lib](https://github.com/TA-Lib/ta-lib) | 1.7k | [View PRs](https://github.com/TA-Lib/ta-lib/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
+| <img src="https://avatars.githubusercontent.com/u/97177645?v=4&s=40" width="16" height="16" alt=""> [console-rs/console](https://github.com/console-rs/console) | 1.2k | [View PRs](https://github.com/console-rs/console/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Sep 2026 |
 | <img src="https://avatars.githubusercontent.com/u/9341563?v=4&s=40" width="16" height="16" alt=""> [tuna/blogroll](https://github.com/tuna/blogroll) | 952 | [View PRs](https://github.com/tuna/blogroll/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Feb 2020 |
 | <img src="https://avatars.githubusercontent.com/u/185365251?v=4&s=40" width="16" height="16" alt=""> [hyperledger-cello/cello](https://github.com/hyperledger-cello/cello) | 918 | [View PRs](https://github.com/hyperledger-cello/cello/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jun 2021 |
-| <img src="https://avatars.githubusercontent.com/u/1550888?v=4&s=40" width="16" height="16" alt=""> [Marigold/universal-portfolios](https://github.com/Marigold/universal-portfolios) | 858 | [View PRs](https://github.com/Marigold/universal-portfolios/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Nov 2019 |
+| <img src="https://avatars.githubusercontent.com/u/1550888?v=4&s=40" width="16" height="16" alt=""> [Marigold/universal-portfolios](https://github.com/Marigold/universal-portfolios) | 859 | [View PRs](https://github.com/Marigold/universal-portfolios/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Nov 2019 |
 | <img src="https://avatars.githubusercontent.com/u/27145?v=4&s=40" width="16" height="16" alt=""> [joelparkerhenderson/demo-rust-axum](https://github.com/joelparkerhenderson/demo-rust-axum) | 442 | [View PRs](https://github.com/joelparkerhenderson/demo-rust-axum/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | May 2022 |
 | <img src="https://avatars.githubusercontent.com/u/7657900?v=4&s=40" width="16" height="16" alt=""> [hyperledger/fabric-sdk-py](https://github.com/hyperledger/fabric-sdk-py) | 416 | [View PRs](https://github.com/hyperledger/fabric-sdk-py/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | May 2021 |
 | <img src="https://avatars.githubusercontent.com/u/5173244?v=4&s=40" width="16" height="16" alt=""> [dimpurr/awesome-acg-machine-learning](https://github.com/dimpurr/awesome-acg-machine-learning) | 120 | [View PRs](https://github.com/dimpurr/awesome-acg-machine-learning/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Oct 2018 |
