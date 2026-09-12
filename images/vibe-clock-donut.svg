@@ -4,11 +4,11 @@
     Model Usage
   </text>
   <g font-family="Arial, Helvetica, sans-serif">
-    <path d="M 120.0 60.0 A 70 70 0 1 1 92.7 65.5 L 102.5 88.6 A 45 45 0 1 0 120.0 85.0 Z" fill="#58a6ff"/>
-    <path d="M 92.7 65.5 A 70 70 0 0 1 118.9 60.0 L 119.3 85.0 A 45 45 0 0 0 102.5 88.6 Z" fill="#3fb950"/>
+    <path d="M 120.0 60.0 A 70 70 0 1 1 93.2 65.3 L 102.8 88.4 A 45 45 0 1 0 120.0 85.0 Z" fill="#58a6ff"/>
+    <path d="M 93.2 65.3 A 70 70 0 0 1 118.9 60.0 L 119.3 85.0 A 45 45 0 0 0 102.8 88.4 Z" fill="#3fb950"/>
     <path d="M 118.9 60.0 A 70 70 0 0 1 120.0 60.0 L 120.0 85.0 A 45 45 0 0 0 119.3 85.0 Z" fill="#d29922"/>
-    <text x="120" y="125" text-anchor="middle" fill="#c9d1d9" font-size="18" font-weight="700">801</text><text x="120" y="142" text-anchor="middle" fill="#8b949e" font-size="10">sessions</text>
-    <rect x="260" y="47" width="10" height="10" rx="2" fill="#58a6ff"/><text x="276" y="55" fill="#c9d1d9" font-size="11">OpenAI</text><text x="276" y="68" fill="#8b949e" font-size="9">750 (94%)</text>
+    <text x="120" y="125" text-anchor="middle" fill="#c9d1d9" font-size="18" font-weight="700">817</text><text x="120" y="142" text-anchor="middle" fill="#8b949e" font-size="10">sessions</text>
+    <rect x="260" y="47" width="10" height="10" rx="2" fill="#58a6ff"/><text x="276" y="55" fill="#c9d1d9" font-size="11">OpenAI</text><text x="276" y="68" fill="#8b949e" font-size="9">766 (94%)</text>
     <rect x="260" y="69" width="10" height="10" rx="2" fill="#3fb950"/><text x="276" y="77" fill="#c9d1d9" font-size="11">Claude</text><text x="276" y="90" fill="#8b949e" font-size="9">49 (6%)</text>
     <rect x="260" y="91" width="10" height="10" rx="2" fill="#d29922"/><text x="276" y="99" fill="#c9d1d9" font-size="11">Other</text><text x="276" y="112" fill="#8b949e" font-size="9">2 (0%)</text>
   </g>
