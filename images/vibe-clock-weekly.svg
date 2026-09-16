@@ -5,8 +5,8 @@
   </text>
   <g font-family="Courier New, Courier, monospace">
     <rect x="50.0" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="50.0" y="106.2" width="50.4" height="58.8" rx="3" fill="#3fb950"><title>Mon: 100 sessions</title></rect>
-    <text x="75.2" y="102.2" text-anchor="middle" fill="#8b949e" font-size="9">100</text>
+    <rect x="50.0" y="83.8" width="50.4" height="81.2" rx="3" fill="#3fb950"><title>Mon: 138 sessions</title></rect>
+    <text x="75.2" y="79.8" text-anchor="middle" fill="#8b949e" font-size="9">138</text>
     <rect x="112.4" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
     <rect x="112.4" y="91.5" width="50.4" height="73.5" rx="3" fill="#3fb950"><title>Tue: 125 sessions</title></rect>
     <text x="137.6" y="87.5" text-anchor="middle" fill="#8b949e" font-size="9">125</text>
@@ -20,8 +20,8 @@
     <rect x="299.7" y="140.9" width="50.4" height="24.1" rx="3" fill="#3fb950"><title>Fri: 41 sessions</title></rect>
     <text x="324.9" y="136.9" text-anchor="middle" fill="#8b949e" font-size="9">41</text>
     <rect x="362.1" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="362.1" y="85.0" width="50.4" height="80.0" rx="3" fill="#3fb950"><title>Sat: 136 sessions</title></rect>
-    <text x="387.4" y="81.0" text-anchor="middle" fill="#8b949e" font-size="9">136</text>
+    <rect x="362.1" y="124.4" width="50.4" height="40.6" rx="3" fill="#3fb950"><title>Sat: 69 sessions</title></rect>
+    <text x="387.4" y="120.4" text-anchor="middle" fill="#8b949e" font-size="9">69</text>
     <rect x="424.6" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
     <rect x="424.6" y="91.5" width="50.4" height="73.5" rx="3" fill="#3fb950"><title>Sun: 125 sessions</title></rect>
     <text x="449.8" y="87.5" text-anchor="middle" fill="#8b949e" font-size="9">125</text>
