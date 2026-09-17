@@ -4,56 +4,56 @@
     Activity by Hour
   </text>
   <g font-family="Courier New, Courier, monospace">
-    <text x="30" y="48.0" text-anchor="end" fill="#8b949e" font-size="9">87</text>
-    <text x="30" y="108.0" text-anchor="end" fill="#8b949e" font-size="9">43</text>
+    <text x="30" y="48.0" text-anchor="end" fill="#8b949e" font-size="9">88</text>
+    <text x="30" y="108.0" text-anchor="end" fill="#8b949e" font-size="9">44</text>
     <text x="30" y="168.0" text-anchor="end" fill="#8b949e" font-size="9">0</text>
     <rect x="35.0" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="35.0" y="145.7" width="16.4" height="19.3" rx="2" fill="#58a6ff"><title>0:00 — 14 sessions</title></rect>
+    <rect x="35.0" y="147.3" width="16.4" height="17.7" rx="2" fill="#58a6ff"><title>0:00 — 13 sessions</title></rect>
     <rect x="53.4" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="53.4" y="156.7" width="16.4" height="8.3" rx="2" fill="#58a6ff"><title>1:00 — 6 sessions</title></rect>
+    <rect x="53.4" y="156.8" width="16.4" height="8.2" rx="2" fill="#58a6ff"><title>1:00 — 6 sessions</title></rect>
     <rect x="71.8" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="71.8" y="163.6" width="16.4" height="1.4" rx="2" fill="#58a6ff"><title>2:00 — 1 sessions</title></rect>
+    <rect x="71.8" y="159.5" width="16.4" height="5.5" rx="2" fill="#58a6ff"><title>2:00 — 4 sessions</title></rect>
     <rect x="90.2" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="90.2" y="162.2" width="16.4" height="2.8" rx="2" fill="#58a6ff"><title>3:00 — 2 sessions</title></rect>
+    <rect x="90.2" y="160.9" width="16.4" height="4.1" rx="2" fill="#58a6ff"><title>3:00 — 3 sessions</title></rect>
     <rect x="108.7" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
     <rect x="127.1" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
     <rect x="127.1" y="163.6" width="16.4" height="1.4" rx="2" fill="#58a6ff"><title>5:00 — 1 sessions</title></rect>
     <rect x="145.5" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="145.5" y="151.2" width="16.4" height="13.8" rx="2" fill="#58a6ff"><title>6:00 — 10 sessions</title></rect>
+    <rect x="145.5" y="151.4" width="16.4" height="13.6" rx="2" fill="#58a6ff"><title>6:00 — 10 sessions</title></rect>
     <rect x="163.9" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="163.9" y="112.6" width="16.4" height="52.4" rx="2" fill="#58a6ff"><title>7:00 — 38 sessions</title></rect>
+    <rect x="163.9" y="111.8" width="16.4" height="53.2" rx="2" fill="#58a6ff"><title>7:00 — 39 sessions</title></rect>
     <rect x="182.3" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="182.3" y="45.0" width="16.4" height="120.0" rx="2" fill="#58a6ff"><title>8:00 — 87 sessions</title></rect>
+    <rect x="182.3" y="45.0" width="16.4" height="120.0" rx="2" fill="#58a6ff"><title>8:00 — 88 sessions</title></rect>
     <rect x="200.8" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="200.8" y="100.2" width="16.4" height="64.8" rx="2" fill="#58a6ff"><title>9:00 — 47 sessions</title></rect>
+    <rect x="200.8" y="109.1" width="16.4" height="55.9" rx="2" fill="#58a6ff"><title>9:00 — 41 sessions</title></rect>
     <rect x="219.2" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="219.2" y="108.4" width="16.4" height="56.6" rx="2" fill="#58a6ff"><title>10:00 — 41 sessions</title></rect>
+    <rect x="219.2" y="111.8" width="16.4" height="53.2" rx="2" fill="#58a6ff"><title>10:00 — 39 sessions</title></rect>
     <rect x="237.6" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="237.6" y="104.3" width="16.4" height="60.7" rx="2" fill="#58a6ff"><title>11:00 — 44 sessions</title></rect>
+    <rect x="237.6" y="105.0" width="16.4" height="60.0" rx="2" fill="#58a6ff"><title>11:00 — 44 sessions</title></rect>
     <rect x="256.0" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="256.0" y="101.6" width="16.4" height="63.4" rx="2" fill="#58a6ff"><title>12:00 — 46 sessions</title></rect>
+    <rect x="256.0" y="100.9" width="16.4" height="64.1" rx="2" fill="#58a6ff"><title>12:00 — 47 sessions</title></rect>
     <rect x="274.4" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="274.4" y="91.9" width="16.4" height="73.1" rx="2" fill="#58a6ff"><title>13:00 — 53 sessions</title></rect>
+    <rect x="274.4" y="96.8" width="16.4" height="68.2" rx="2" fill="#58a6ff"><title>13:00 — 50 sessions</title></rect>
     <rect x="292.8" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="292.8" y="89.1" width="16.4" height="75.9" rx="2" fill="#58a6ff"><title>14:00 — 55 sessions</title></rect>
+    <rect x="292.8" y="96.8" width="16.4" height="68.2" rx="2" fill="#58a6ff"><title>14:00 — 50 sessions</title></rect>
     <rect x="311.2" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="311.2" y="120.9" width="16.4" height="44.1" rx="2" fill="#58a6ff"><title>15:00 — 32 sessions</title></rect>
+    <rect x="311.2" y="128.2" width="16.4" height="36.8" rx="2" fill="#58a6ff"><title>15:00 — 27 sessions</title></rect>
     <rect x="329.7" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="329.7" y="71.2" width="16.4" height="93.8" rx="2" fill="#58a6ff"><title>16:00 — 68 sessions</title></rect>
+    <rect x="329.7" y="76.4" width="16.4" height="88.6" rx="2" fill="#58a6ff"><title>16:00 — 65 sessions</title></rect>
     <rect x="348.1" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="348.1" y="104.3" width="16.4" height="60.7" rx="2" fill="#58a6ff"><title>17:00 — 44 sessions</title></rect>
+    <rect x="348.1" y="105.0" width="16.4" height="60.0" rx="2" fill="#58a6ff"><title>17:00 — 44 sessions</title></rect>
     <rect x="366.5" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="366.5" y="152.6" width="16.4" height="12.4" rx="2" fill="#58a6ff"><title>18:00 — 9 sessions</title></rect>
+    <rect x="366.5" y="152.7" width="16.4" height="12.3" rx="2" fill="#58a6ff"><title>18:00 — 9 sessions</title></rect>
     <rect x="384.9" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="384.9" y="131.9" width="16.4" height="33.1" rx="2" fill="#58a6ff"><title>19:00 — 24 sessions</title></rect>
+    <rect x="384.9" y="129.5" width="16.4" height="35.5" rx="2" fill="#58a6ff"><title>19:00 — 26 sessions</title></rect>
     <rect x="403.3" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="403.3" y="109.8" width="16.4" height="55.2" rx="2" fill="#58a6ff"><title>20:00 — 40 sessions</title></rect>
+    <rect x="403.3" y="107.7" width="16.4" height="57.3" rx="2" fill="#58a6ff"><title>20:00 — 42 sessions</title></rect>
     <rect x="421.8" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="421.8" y="111.2" width="16.4" height="53.8" rx="2" fill="#58a6ff"><title>21:00 — 39 sessions</title></rect>
+    <rect x="421.8" y="109.1" width="16.4" height="55.9" rx="2" fill="#58a6ff"><title>21:00 — 41 sessions</title></rect>
     <rect x="440.2" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="440.2" y="114.0" width="16.4" height="51.0" rx="2" fill="#58a6ff"><title>22:00 — 37 sessions</title></rect>
+    <rect x="440.2" y="114.5" width="16.4" height="50.5" rx="2" fill="#58a6ff"><title>22:00 — 37 sessions</title></rect>
     <rect x="458.6" y="45" width="16.4" height="120" rx="2" fill="#21262d"/>
-    <rect x="458.6" y="147.1" width="16.4" height="17.9" rx="2" fill="#58a6ff"><title>23:00 — 13 sessions</title></rect>
+    <rect x="458.6" y="145.9" width="16.4" height="19.1" rx="2" fill="#58a6ff"><title>23:00 — 14 sessions</title></rect>
     <text x="43.2" y="179" text-anchor="middle" fill="#8b949e" font-size="9">0:00</text>
     <text x="98.5" y="179" text-anchor="middle" fill="#8b949e" font-size="9">3:00</text>
     <text x="153.7" y="179" text-anchor="middle" fill="#8b949e" font-size="9">6:00</text>
