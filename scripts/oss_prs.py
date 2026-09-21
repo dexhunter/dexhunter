@@ -59,7 +59,6 @@ AI_PROJECTS = frozenset({
     "zhengyaojiang/pgportfolio",
 })
 
-TOP = 20
 API = "https://api.github.com/"
 START, END = "<!-- OSS-PRS:START -->", "<!-- OSS-PRS:END -->"
 # Fails immediately, before any request, if unset.
@@ -151,12 +150,6 @@ def table(projects: list[tuple]) -> list[str]:
     return HEADER + [row(*project) for project in projects]
 
 
-def fold(lines: list[str], summary: str) -> list[str]:
-    # The blank line after </summary> is required, or the table renders as
-    # literal pipes instead of a table.
-    return ["", "<details>", f"<summary>{summary}</summary>", "", *lines, "", "</details>"]
-
-
 def main() -> None:
     # Keyed by current full name, because search can hand back both the old and
     # the new name of a renamed repo and urllib follows GitHub's rename
@@ -194,12 +187,10 @@ def main() -> None:
         "",
         "### AI and agent infrastructure",
         "",
-        *table(ai[:TOP]),
+        *table(ai),
     ]
-    if ai[TOP:]:
-        block += fold(table(ai[TOP:]), f"{len(ai) - TOP} more AI projects")
     if other:
-        block += fold(table(other), f"{len(other)} projects outside AI")
+        block += ["", "### Projects outside AI", "", *table(other)]
 
     before, _, rest = README.read_text(encoding="utf-8").partition(START)
     _, marker, after = rest.partition(END)

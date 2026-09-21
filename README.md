@@ -34,13 +34,10 @@ Previously, I built trading backends in Rust, Go, and Node.js at [Hex Trust](htt
 **Featured**
 
 - **[UK AI Security Institute — Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** — performance work on the UK government's LLM evaluation framework: cut clustered-stderr scoring time and memory ([#4714](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4714)), and made tool-result media extraction linear in conversation length ([#4628](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4628)).
-- **[OpenAI Parameter Golf](https://github.com/openai/parameter-golf)** — I built an autonomous research agent that set seven leaderboard records in 2026, with entries in the official [record-track directory](https://github.com/openai/parameter-golf/tree/main/records/track_10min_16mb). Its best result achieved a 5-seed mean validation BPB of [1.0645](https://github.com/openai/parameter-golf/pull/1769). OpenAI featured [one of its model-compression submissions](https://github.com/openai/parameter-golf/pull/1060) in the [competition retrospective](https://openai.com/index/what-parameter-golf-taught-us/), crediting my account, `dexhunter`.
+- **[OpenAI Parameter Golf](https://github.com/openai/parameter-golf)** — I built an autonomous research agent that set seven leaderboard records in 2026, with entries in the official [record-track directory](https://github.com/openai/parameter-golf/tree/main/records/track_10min_16mb). Its best result achieved a 5-seed mean validation BPB of [1.0645](https://github.com/openai/parameter-golf/pull/1769). OpenAI also highlighted [one of the agent's model-compression PRs](https://github.com/openai/parameter-golf/pull/1060) in its [write-up about the competition](https://openai.com/index/what-parameter-golf-taught-us/).
 - **Agent runtimes** — merged performance work into [openclaw](https://github.com/openclaw/openclaw/pull/99714), [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT/pull/13478), [goose](https://github.com/aaif-goose/goose/pull/10409), [qwen-code](https://github.com/QwenLM/qwen-code/pull/8253), [pydantic-ai](https://github.com/pydantic/pydantic-ai/pull/6485), [agno](https://github.com/agno-agi/agno/pull/8907) and [BAML](https://github.com/BoundaryML/baml/pull/3975).
 - **AI research infrastructure** — cut redundant AST parsing in Sakana AI's [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve/pull/175) and bounded process-pool shutdown latency in [OpenEvolve](https://github.com/algorithmicsuperintelligence/openevolve/pull/469); smaller docs fixes in Meta's [aira-dojo](https://github.com/facebookresearch/aira-dojo/pull/2), Microsoft's [RD-Agent](https://github.com/microsoft/RD-Agent/pull/1249) and OpenAI's [MLE-bench](https://github.com/openai/mle-bench/pull/101).
 - **[AIDE](https://github.com/WecoAI/aideml)** — contributions to the open-source tree-search agent behind my 2025 paper; it writes, evaluates, and improves machine learning code. I also contribute to [weco-cli](https://github.com/WecoAI/weco-cli), the command line tool that drives it.
-
-<details>
-<summary>All open-source contributions — project tables</summary>
 
 Each project links to its merged pull requests on GitHub. Ranked by stars, refreshed weekly.
 
@@ -72,12 +69,6 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 | <img src="https://avatars.githubusercontent.com/u/14957082?v=4&s=40" width="16" height="16" alt=""> [openai/parameter-golf](https://github.com/openai/parameter-golf) | 5.2k | [View PRs](https://github.com/openai/parameter-golf/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Apr 2026 |
 | <img src="https://avatars.githubusercontent.com/u/72518640?v=4&s=40" width="16" height="16" alt=""> [TanStack/ai](https://github.com/TanStack/ai) | 3.1k | [View PRs](https://github.com/TanStack/ai/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
 | <img src="https://avatars.githubusercontent.com/u/19221939?v=4&s=40" width="16" height="16" alt=""> [UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai) | 2.8k | [View PRs](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
-
-<details>
-<summary>10 more AI projects</summary>
-
-| Project | Stars | Contributions | Latest |
-| --- | ---: | --- | --- |
 | <img src="https://avatars.githubusercontent.com/u/15139574?v=4&s=40" width="16" height="16" alt=""> [ZhengyaoJiang/PGPortfolio](https://github.com/ZhengyaoJiang/PGPortfolio) | 1.9k | [View PRs](https://github.com/ZhengyaoJiang/PGPortfolio/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Dec 2017 |
 | <img src="https://avatars.githubusercontent.com/u/14957082?v=4&s=40" width="16" height="16" alt=""> [openai/mle-bench](https://github.com/openai/mle-bench) | 1.7k | [View PRs](https://github.com/openai/mle-bench/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Nov 2025 |
 | <img src="https://avatars.githubusercontent.com/u/62961550?v=4&s=40" width="16" height="16" alt=""> [Farama-Foundation/ChatArena](https://github.com/Farama-Foundation/ChatArena) | 1.6k | [View PRs](https://github.com/Farama-Foundation/ChatArena/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jun 2023 |
@@ -89,10 +80,7 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 | <img src="https://avatars.githubusercontent.com/u/11850255?v=4&s=40" width="16" height="16" alt=""> [JeanKaddour/sokoban_speedrun](https://github.com/JeanKaddour/sokoban_speedrun) | 31 | [View PRs](https://github.com/JeanKaddour/sokoban_speedrun/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2026 |
 | <img src="https://avatars.githubusercontent.com/u/263072830?v=4&s=40" width="16" height="16" alt=""> [openbydesign/lush](https://github.com/openbydesign/lush) | 3 | [View PRs](https://github.com/openbydesign/lush/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Aug 2026 |
 
-</details>
-
-<details>
-<summary>27 projects outside AI</summary>
+### Projects outside AI
 
 | Project | Stars | Contributions | Latest |
 | --- | ---: | --- | --- |
@@ -124,11 +112,7 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 | <img src="https://avatars.githubusercontent.com/u/4354888?v=4&s=40" width="16" height="16" alt=""> [xieyuheng/awesome-why](https://github.com/xieyuheng/awesome-why) | 1 | [View PRs](https://github.com/xieyuheng/awesome-why/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | Jul 2019 |
 | <img src="https://avatars.githubusercontent.com/u/167147327?v=4&s=40" width="16" height="16" alt=""> [IntensiveCoLearning/running](https://github.com/IntensiveCoLearning/running) | 0 | [View PRs](https://github.com/IntensiveCoLearning/running/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) | May 2025 |
 
-</details>
-
 <!-- OSS-PRS:END -->
-
-</details>
 
 ## 📚 Publications
 
@@ -137,30 +121,18 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 - *Challenges of Privacy-Preserving Machine Learning in IoT* ([DOI](https://doi.org/10.1145/3363347.3363357)), ACM AIChallengeIoT, 2019
 - *A Deep Reinforcement Learning Framework for the Financial Portfolio Management Problem* ([arXiv](https://arxiv.org/abs/1706.10059)), arXiv preprint, 2017
 
-Citation counts are on [Google Scholar](https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en).
-
 ## 🎤 Talks
 
 - **Hands-on AutoResearch: Cracking OpenAI's Parameter Golf** — workshop with the Weco AI team, [AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/2026/schedule)
 - **[Algorithmic Trading Workshop](https://slides.dex.moe)** — Network School, first cohort (2024)
-
-<details>
-<summary>Earlier talks</summary>
-
 - **[Deep Learning for Power System Security Assessment](https://slides.dex.moe)** (2019)
 - **[Introduction to Hyperledger Fabric](https://slides.dex.moe)** (2019)
-
-</details>
 
 ## 🏅 Awards
 
 - 🏆 Special Prize (US$10,000), Wanxiang Blockchain Hackathon by QTUM (2018)
 - 🥇 1st Prize, EOS Hackathon Hangzhou (team, 2018)
 - 🥇 1st Prize, Hack x FDU 2017 Hackathon (out of more than 70 teams)
-
-<details>
-<summary>More awards and scholarships</summary>
-
 - 🥈 2nd Prize, XJTLU Blockchain Technology Application Innovation & Entrepreneurship Challenge (2020)
 - 🥈 2nd Prize, XJTLU & PNP AI Innovation Hackathon (2018)
 - 🥉 3rd Prize, EOS Hackathon Hangzhou (individual, 2018)
@@ -168,8 +140,6 @@ Citation counts are on [Google Scholar](https://scholar.google.co.jp/citations?u
 - 🏆 IBM Student Innovation Lab Program Award (2017)
 - 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum (2020)
 - 🎓 CNCF Diversity Scholarship, KubeCon + CloudNativeCon China (2018)
-
-</details>
 
 ## ⏱ [Vibe Clock](https://github.com/dexhunter/vibe-clock)
 
