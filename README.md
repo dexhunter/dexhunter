@@ -2,6 +2,9 @@
 <h1 align="center">Hi👋 Dex here. Welcome to my page!</h1>
 </div>
 
+> [!NOTE]
+> **AI-generated optimization PRs:** This account is used to submit optimization pull requests written by autonomous AI agents as part of our research at [Weco AI](https://github.com/wecoai). We're testing how well agents can identify performance improvements, implement and evaluate changes, and prepare PRs for real open-source projects.
+
 <p align="center">
   <a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=flat-square" alt="GitHub"></a>
   <a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmaster%2Fimages%2Fgoogle-scholar-citations.json&style=flat-square" alt="Google Scholar citations"></a>
@@ -13,25 +16,33 @@
 
 ## 👨‍💻 About
 
-I build autonomous research agents at [Weco AI](https://github.com/wecoai), where I'm a Member of Technical Staff. In 2026, an agent I built produced seven accepted leaderboard records in [OpenAI's Parameter Golf](https://github.com/openai/parameter-golf). OpenAI featured [one of the agent's model-compression submissions](https://github.com/openai/parameter-golf/pull/1060) in its [competition retrospective](https://openai.com/index/what-parameter-golf-taught-us/), crediting my GitHub account, `dexhunter`. The agent writes code, tests it against a metric, and keeps improving it through long research runs without supervision.
+I build autonomous research agents at [Weco AI](https://github.com/wecoai), where I'm a Member of Technical Staff. My work focuses on agents that write code, test it against a metric, and improve it through long research runs without supervision.
 
-I co-authored the [AIDE paper](https://arxiv.org/abs/2502.13138) (2025) and have [contributed](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) to the agent's codebase since 2024. AIDE uses tree search to write and improve machine learning code. OpenAI used AIDE for its MLE-bench evaluations of GPT-4.5, o1, and o3-mini, as documented in the [GPT-4.5 system card](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf). Meta FAIR's [AI Research Agents](https://arxiv.org/abs/2507.02554) described AIDE as "the state-of-the-art approach" and rebuilt it as a baseline for comparison.
+I co-authored the [AIDE paper](https://arxiv.org/abs/2502.13138) (2025) and have [contributed](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) to its codebase since 2024. Previously, I was a [maintainer](https://github.com/hyperledger/fabric-sdk-py/blob/main/MAINTAINERS.md) of the Hyperledger Fabric Python SDK, a Linux Foundation project.
 
-My [contributions](https://github.com/UKGovernmentBEIS/inspect_ai/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) to Inspect, the UK AI Security Institute's open-source LLM evaluation framework, include merged improvements that reduce scoring time and memory use and make tool-result media extraction scale linearly with conversation length. I was also a [maintainer](https://github.com/hyperledger/fabric-sdk-py/blob/main/MAINTAINERS.md) of the Hyperledger Fabric Python SDK, a Linux Foundation project.
+<details>
+<summary>Research and professional background</summary>
+
+AIDE uses tree search to write and improve machine learning code. OpenAI used AIDE for its MLE-bench evaluations of GPT-4.5, o1, and o3-mini, as documented in the [GPT-4.5 system card](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf). Meta FAIR's [AI Research Agents](https://arxiv.org/abs/2507.02554) described AIDE as "the state-of-the-art approach" and rebuilt it as a baseline for comparison.
 
 Previously, I built trading backends in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University, with earlier research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
+
+</details>
 
 ## 🌱 Open source
 
 **Featured**
 
 - **[UK AI Security Institute — Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** — performance work on the UK government's LLM evaluation framework: cut clustered-stderr scoring time and memory ([#4714](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4714)), and made tool-result media extraction linear in conversation length ([#4628](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4628)).
-- **[OpenAI Parameter Golf](https://github.com/openai/parameter-golf)** — I built an autonomous research agent that set seven leaderboard records, with entries in the official [record-track directory](https://github.com/openai/parameter-golf/tree/main/records/track_10min_16mb). Its best result achieved a 5-seed mean validation BPB of [1.0645](https://github.com/openai/parameter-golf/pull/1769). The agent's submissions were made through my GitHub account and appear in the table below.
+- **[OpenAI Parameter Golf](https://github.com/openai/parameter-golf)** — I built an autonomous research agent that set seven leaderboard records in 2026, with entries in the official [record-track directory](https://github.com/openai/parameter-golf/tree/main/records/track_10min_16mb). Its best result achieved a 5-seed mean validation BPB of [1.0645](https://github.com/openai/parameter-golf/pull/1769). OpenAI featured [one of its model-compression submissions](https://github.com/openai/parameter-golf/pull/1060) in the [competition retrospective](https://openai.com/index/what-parameter-golf-taught-us/), crediting my account, `dexhunter`.
 - **Agent runtimes** — merged performance work into [openclaw](https://github.com/openclaw/openclaw/pull/99714), [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT/pull/13478), [goose](https://github.com/aaif-goose/goose/pull/10409), [qwen-code](https://github.com/QwenLM/qwen-code/pull/8253), [pydantic-ai](https://github.com/pydantic/pydantic-ai/pull/6485), [agno](https://github.com/agno-agi/agno/pull/8907) and [BAML](https://github.com/BoundaryML/baml/pull/3975).
 - **AI research infrastructure** — cut redundant AST parsing in Sakana AI's [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve/pull/175) and bounded process-pool shutdown latency in [OpenEvolve](https://github.com/algorithmicsuperintelligence/openevolve/pull/469); smaller docs fixes in Meta's [aira-dojo](https://github.com/facebookresearch/aira-dojo/pull/2), Microsoft's [RD-Agent](https://github.com/microsoft/RD-Agent/pull/1249) and OpenAI's [MLE-bench](https://github.com/openai/mle-bench/pull/101).
 - **[AIDE](https://github.com/WecoAI/aideml)** — contributions to the open-source tree-search agent behind my 2025 paper; it writes, evaluates, and improves machine learning code. I also contribute to [weco-cli](https://github.com/WecoAI/weco-cli), the command line tool that drives it.
 
-Every project below links to its merged pull requests on GitHub, so anything here can be checked directly. Ranked by stars, refreshed weekly.
+<details>
+<summary>All open-source contributions — project tables</summary>
+
+Each project links to its merged pull requests on GitHub. Ranked by stars, refreshed weekly.
 
 <!-- OSS-PRS:START -->
 
@@ -117,6 +128,8 @@ Every project below links to its merged pull requests on GitHub, so anything her
 
 <!-- OSS-PRS:END -->
 
+</details>
+
 ## 📚 Publications
 
 - *AIDE: AI-Driven Exploration in the Space of Code* ([arXiv](https://arxiv.org/abs/2502.13138)), arXiv preprint, 2025
@@ -130,14 +143,24 @@ Citation counts are on [Google Scholar](https://scholar.google.co.jp/citations?u
 
 - **Hands-on AutoResearch: Cracking OpenAI's Parameter Golf** — workshop with the Weco AI team, [AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/2026/schedule)
 - **[Algorithmic Trading Workshop](https://slides.dex.moe)** — Network School, first cohort (2024)
+
+<details>
+<summary>Earlier talks</summary>
+
 - **[Deep Learning for Power System Security Assessment](https://slides.dex.moe)** (2019)
 - **[Introduction to Hyperledger Fabric](https://slides.dex.moe)** (2019)
+
+</details>
 
 ## 🏅 Awards
 
 - 🏆 Special Prize (US$10,000), Wanxiang Blockchain Hackathon by QTUM (2018)
 - 🥇 1st Prize, EOS Hackathon Hangzhou (team, 2018)
 - 🥇 1st Prize, Hack x FDU 2017 Hackathon (out of more than 70 teams)
+
+<details>
+<summary>More awards and scholarships</summary>
+
 - 🥈 2nd Prize, XJTLU Blockchain Technology Application Innovation & Entrepreneurship Challenge (2020)
 - 🥈 2nd Prize, XJTLU & PNP AI Innovation Hackathon (2018)
 - 🥉 3rd Prize, EOS Hackathon Hangzhou (individual, 2018)
@@ -146,9 +169,14 @@ Citation counts are on [Google Scholar](https://scholar.google.co.jp/citations?u
 - 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum (2020)
 - 🎓 CNCF Diversity Scholarship, KubeCon + CloudNativeCon China (2018)
 
+</details>
+
 ## ⏱ [Vibe Clock](https://github.com/dexhunter/vibe-clock)
 
 An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. The charts below are my own usage, refreshed daily.
+
+<details>
+<summary>My coding-agent usage charts</summary>
 
 <p align="center">
   <img src="images/vibe-clock-card.svg" alt="Vibe Clock Stats" />
@@ -161,3 +189,5 @@ An open-source tool I built: WakaTime-style usage tracking for Claude Code, Code
   <img src="images/vibe-clock-hourly.svg" alt="Activity by Hour" />
   <img src="images/vibe-clock-weekly.svg" alt="Activity by Day of Week" />
 </p>
+
+</details>
