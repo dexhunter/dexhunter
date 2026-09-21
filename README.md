@@ -143,7 +143,7 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 
 ## ⏱ [Vibe Clock](https://github.com/dexhunter/vibe-clock)
 
-An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. The charts below are my own usage, refreshed daily.
+An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. Expand the section below to see my usage charts, with brief animations and daily updates.
 
 <details>
 <summary>My coding-agent usage charts</summary>

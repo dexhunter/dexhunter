@@ -1,36 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="200" viewBox="0 0 495 200">
-  <rect width="493" height="198" x="1" y="1" rx="4.5" fill="#0d1117" stroke="#30363d"/>
-  <text x="20" y="28" fill="#58a6ff" font-size="14" font-weight="700" font-family="Arial, Helvetica, sans-serif">
-    Activity by Day of Week
-  </text>
-  <g font-family="Courier New, Courier, monospace">
-    <rect x="50.0" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="50.0" y="90.7" width="50.4" height="74.3" rx="3" fill="#3fb950"><title>Mon: 135 sessions</title></rect>
-    <text x="75.2" y="86.7" text-anchor="middle" fill="#8b949e" font-size="9">135</text>
-    <rect x="112.4" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="112.4" y="85.7" width="50.4" height="79.3" rx="3" fill="#3fb950"><title>Tue: 144 sessions</title></rect>
-    <text x="137.6" y="81.7" text-anchor="middle" fill="#8b949e" font-size="9">144</text>
-    <rect x="174.9" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="174.9" y="45.0" width="50.4" height="120.0" rx="3" fill="#3fb950"><title>Wed: 218 sessions</title></rect>
-    <text x="200.1" y="41.0" text-anchor="middle" fill="#8b949e" font-size="9">218</text>
-    <rect x="237.3" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="237.3" y="113.3" width="50.4" height="51.7" rx="3" fill="#3fb950"><title>Thu: 94 sessions</title></rect>
-    <text x="262.5" y="109.3" text-anchor="middle" fill="#8b949e" font-size="9">94</text>
-    <rect x="299.7" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="299.7" y="105.6" width="50.4" height="59.4" rx="3" fill="#3fb950"><title>Fri: 108 sessions</title></rect>
-    <text x="324.9" y="101.6" text-anchor="middle" fill="#8b949e" font-size="9">108</text>
-    <rect x="362.1" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="362.1" y="112.2" width="50.4" height="52.8" rx="3" fill="#3fb950"><title>Sat: 96 sessions</title></rect>
-    <text x="387.4" y="108.2" text-anchor="middle" fill="#8b949e" font-size="9">96</text>
-    <rect x="424.6" y="45" width="50.4" height="120" rx="3" fill="#21262d"/>
-    <rect x="424.6" y="113.3" width="50.4" height="51.7" rx="3" fill="#3fb950"><title>Sun: 94 sessions</title></rect>
-    <text x="449.8" y="109.3" text-anchor="middle" fill="#8b949e" font-size="9">94</text>
-    <text x="75.2" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Mon</text>
-    <text x="137.6" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Tue</text>
-    <text x="200.1" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Wed</text>
-    <text x="262.5" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Thu</text>
-    <text x="324.9" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Fri</text>
-    <text x="387.4" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Sat</text>
-    <text x="449.8" y="179" text-anchor="middle" fill="#c9d1d9" font-size="10">Sun</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="235" viewBox="0 0 495 235" role="img" aria-labelledby="vc-title vc-desc">
+  <title id="vc-title">Activity by Day of Week</title>
+  <desc id="vc-desc">Sessions · last 30 complete days</desc>
+  <defs>
+    <linearGradient id="vc-blue" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#79b8ff" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#79b8ff"/>
+    </linearGradient>
+    <linearGradient id="vc-green" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#56d4b0" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#56d4b0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .vc-x, .vc-y { transform-box: fill-box; }
+    .vc-x { transform-origin: left center; }
+    .vc-y { transform-origin: center bottom; }
+    @media (prefers-reduced-motion: no-preference) {
+      .vc-x { animation: vc-grow-x 600ms cubic-bezier(.22,1,.36,1) backwards; }
+      .vc-y { animation: vc-grow-y 600ms cubic-bezier(.22,1,.36,1) backwards; }
+      .vc-reveal { animation: vc-reveal 450ms ease-out backwards; }
+    }
+    @keyframes vc-grow-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+    @keyframes vc-grow-y { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+    @keyframes vc-reveal { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+  <rect x="1" y="1" width="493" height="233" rx="14" fill="#0d1117" stroke="#293548"/>
+  <rect x="22" y="23" width="3" height="17" rx="1.5" fill="#79b8ff"/>
+  <text x="35" y="36" fill="#e6edf3" font-size="16" font-weight="650">Activity by Day of Week</text>
+  <text x="22" y="56" fill="#9daec3" font-size="11">Sessions · last 30 complete days</text>
+
+<rect x="50.0" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
+    <rect x="50.0" y="125.7" width="50.4" height="74.3" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:0ms"><title>Mon: 135 sessions</title></rect>
+    <text x="75.2" y="121.7" text-anchor="middle" fill="#9daec3" font-size="9">135</text>
+    <rect x="112.4" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
+    <rect x="112.4" y="120.7" width="50.4" height="79.3" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:30ms"><title>Tue: 144 sessions</title></rect>
+    <text x="137.6" y="116.7" text-anchor="middle" fill="#9daec3" font-size="9">144</text>
+    <rect x="174.9" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
+    <rect x="174.9" y="80.0" width="50.4" height="120.0" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:60ms"><title>Wed: 218 sessions</title></rect>
+    <text x="200.1" y="76.0" text-anchor="middle" fill="#9daec3" font-size="9">218</text>
+    <rect x="237.3" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
+    <rect x="237.3" y="148.3" width="50.4" height="51.7" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:90ms"><title>Thu: 94 sessions</title></rect>
+    <text x="262.5" y="144.3" text-anchor="middle" fill="#9daec3" font-size="9">94</text>
+    <rect x="299.7" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
+    <rect x="299.7" y="140.6" width="50.4" height="59.4" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:120ms"><title>Fri: 108 sessions</title></rect>
+    <text x="324.9" y="136.6" text-anchor="middle" fill="#9daec3" font-size="9">108</text>
+    <rect x="362.1" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
+    <rect x="362.1" y="147.2" width="50.4" height="52.8" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:150ms"><title>Sat: 96 sessions</title></rect>
+    <text x="387.4" y="143.2" text-anchor="middle" fill="#9daec3" font-size="9">96</text>
+    <rect x="424.6" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
+    <rect x="424.6" y="148.3" width="50.4" height="51.7" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:180ms"><title>Sun: 94 sessions</title></rect>
+    <text x="449.8" y="144.3" text-anchor="middle" fill="#9daec3" font-size="9">94</text>
+<text x="75.2" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Mon</text>
+    <text x="137.6" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Tue</text>
+    <text x="200.1" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Wed</text>
+    <text x="262.5" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Thu</text>
+    <text x="324.9" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Fri</text>
+    <text x="387.4" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Sat</text>
+    <text x="449.8" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Sun</text>
 </svg>

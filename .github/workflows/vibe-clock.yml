@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: dexhunter/vibe-clock@v1.5.0
+      - uses: dexhunter/vibe-clock@1abdd85bef862087aa58b7c02383e5beacfcaee0 # Animated profile charts
         with:
           gist_id: ${{ secrets.VIBE_CLOCK_GIST_ID }}
           chart_types: card,donut,token_bars,hourly,weekly
