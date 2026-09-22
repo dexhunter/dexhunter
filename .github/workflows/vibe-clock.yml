@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: dexhunter/vibe-clock@3b96dbf49c9c115b12fb742174f59d1bff03ac1f # Repeating chart highlights
+      - uses: dexhunter/vibe-clock@7bbd5ade04167c23f646929a2fc664d64089fb83 # Repeating highlight sweeps
         with:
           gist_id: ${{ secrets.VIBE_CLOCK_GIST_ID }}
           chart_types: card,donut,token_bars,hourly,weekly

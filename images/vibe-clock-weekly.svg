@@ -10,15 +10,21 @@
       <stop stop-color="#56d4b0" stop-opacity="0.6"/>
       <stop offset="1" stop-color="#56d4b0"/>
     </linearGradient>
+    <linearGradient id="vc-sheen">
+      <stop stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
   </defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+    .vc-sweep { opacity: 0; }
     @media (prefers-reduced-motion: no-preference) {
-      .vc-x, .vc-y, .vc-reveal { animation: vc-highlight 5s ease-in-out infinite both; }
+      .vc-sweep { opacity: 1; animation: vc-sweep 3.5s linear infinite; }
     }
-    @keyframes vc-highlight {
-      0%, 100% { opacity: 0.65; }
-      35%, 65% { opacity: 1; }
+    @keyframes vc-sweep {
+      from { transform: translateX(0); }
+      to { transform: translateX(625px); }
     }
   </style>
   <rect x="1" y="1" width="493" height="233" rx="14" fill="#0d1117" stroke="#293548"/>
@@ -27,25 +33,25 @@
   <text x="22" y="56" fill="#9daec3" font-size="11">Sessions · last 30 complete days</text>
 
 <rect x="50.0" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="50.0" y="125.7" width="50.4" height="74.3" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:0ms"><title>Mon: 135 sessions</title></rect>
+    <rect x="50.0" y="125.7" width="50.4" height="74.3" rx="3" fill="url(#vc-green)" id="vc-y-0" class="vc-y"><title>Mon: 135 sessions</title></rect>
     <text x="75.2" y="121.7" text-anchor="middle" fill="#9daec3" font-size="9">135</text>
     <rect x="112.4" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="112.4" y="120.7" width="50.4" height="79.3" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:120ms"><title>Tue: 144 sessions</title></rect>
+    <rect x="112.4" y="120.7" width="50.4" height="79.3" rx="3" fill="url(#vc-green)" id="vc-y-1" class="vc-y"><title>Tue: 144 sessions</title></rect>
     <text x="137.6" y="116.7" text-anchor="middle" fill="#9daec3" font-size="9">144</text>
     <rect x="174.9" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="174.9" y="80.0" width="50.4" height="120.0" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:240ms"><title>Wed: 218 sessions</title></rect>
+    <rect x="174.9" y="80.0" width="50.4" height="120.0" rx="3" fill="url(#vc-green)" id="vc-y-2" class="vc-y"><title>Wed: 218 sessions</title></rect>
     <text x="200.1" y="76.0" text-anchor="middle" fill="#9daec3" font-size="9">218</text>
     <rect x="237.3" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="237.3" y="148.3" width="50.4" height="51.7" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:360ms"><title>Thu: 94 sessions</title></rect>
+    <rect x="237.3" y="148.3" width="50.4" height="51.7" rx="3" fill="url(#vc-green)" id="vc-y-3" class="vc-y"><title>Thu: 94 sessions</title></rect>
     <text x="262.5" y="144.3" text-anchor="middle" fill="#9daec3" font-size="9">94</text>
     <rect x="299.7" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="299.7" y="146.1" width="50.4" height="53.9" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:480ms"><title>Fri: 98 sessions</title></rect>
+    <rect x="299.7" y="146.1" width="50.4" height="53.9" rx="3" fill="url(#vc-green)" id="vc-y-4" class="vc-y"><title>Fri: 98 sessions</title></rect>
     <text x="324.9" y="142.1" text-anchor="middle" fill="#9daec3" font-size="9">98</text>
     <rect x="362.1" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="362.1" y="147.2" width="50.4" height="52.8" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:600ms"><title>Sat: 96 sessions</title></rect>
+    <rect x="362.1" y="147.2" width="50.4" height="52.8" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 96 sessions</title></rect>
     <text x="387.4" y="143.2" text-anchor="middle" fill="#9daec3" font-size="9">96</text>
     <rect x="424.6" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="424.6" y="139.4" width="50.4" height="60.6" rx="3" fill="url(#vc-green)" class="vc-y" style="animation-delay:720ms"><title>Sun: 110 sessions</title></rect>
+    <rect x="424.6" y="139.4" width="50.4" height="60.6" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 110 sessions</title></rect>
     <text x="449.8" y="135.4" text-anchor="middle" fill="#9daec3" font-size="9">110</text>
 <text x="75.2" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Mon</text>
     <text x="137.6" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Tue</text>
@@ -54,4 +60,10 @@
     <text x="324.9" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Fri</text>
     <text x="387.4" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Sat</text>
     <text x="449.8" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Sun</text>
+<defs>
+  <mask id="vc-data" maskUnits="userSpaceOnUse" x="0" y="0" width="495" height="235" style="mask-type:alpha"><use href="#vc-y-0"/><use href="#vc-y-1"/><use href="#vc-y-2"/><use href="#vc-y-3"/><use href="#vc-y-4"/><use href="#vc-y-5"/><use href="#vc-y-6"/></mask>
+</defs>
+<g mask="url(#vc-data)" opacity="1" aria-hidden="true" pointer-events="none">
+  <rect class="vc-sweep" x="-130" y="0" width="130" height="235" fill="url(#vc-sheen)"/>
+</g>
 </svg>
