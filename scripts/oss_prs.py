@@ -8,6 +8,7 @@ Fails loudly and leaves README.md untouched whenever the GitHub API does not
 return data we can fully trust: a stale table beats a wrong one.
 """
 
+import html
 import json
 import os
 import pathlib
@@ -61,24 +62,30 @@ AI_PROJECTS = frozenset({
 
 API = "https://api.github.com/"
 START, END = "<!-- OSS-PRS:START -->", "<!-- OSS-PRS:END -->"
-# Fails immediately, before any request, if unset.
-TOKEN = os.environ.get("GITHUB_TOKEN") or die("GITHUB_TOKEN is not set.")
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 README = ROOT / "README.md"
 # Shields.io endpoint badge, same shape as images/google-scholar-citations.json.
 BADGE = ROOT / "images" / "oss-prs.json"
 MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
-HEADER = ["| Project | Stars | Contributions | Latest |", "| --- | ---: | --- | --- |"]
+VISIBLE_STARS = 1000
+# Keep all category tables aligned, including the expandable ones.
+HEADER = [
+    '<table>',
+    '<thead><tr><th width="460">Project</th><th width="80">Stars</th>'
+    '<th width="130">Contributions</th><th width="100">Latest</th></tr></thead>',
+    '<tbody>',
+]
 
 
 def get(path: str, **params: object) -> dict:
+    token = os.environ.get("GITHUB_TOKEN") or die("GITHUB_TOKEN is not set.")
     url = API + path + (f"?{urllib.parse.urlencode(params)}" if params else "")
     request = urllib.request.Request(
         url,
         headers={
             "Accept": "application/vnd.github+json",
             "X-GitHub-Api-Version": "2022-11-28",
-            "Authorization": f"Bearer {TOKEN}",
+            "Authorization": f"Bearer {token}",
         },
     )
     try:
@@ -142,12 +149,31 @@ def row(count: int, _prs: int, repo: str, url: str, latest: str, avatar: str) ->
     # The owner avatar doubles as the project's logo. It comes from metadata we
     # already fetched, so it costs no extra request, and a 40px source keeps it
     # crisp on retina while rendering at 16px.
-    icon = f'<img src="{avatar}&s=40" width="16" height="16" alt=""> '
-    return f"| {icon}[{repo}]({url}) | {stars(count)} | [View PRs]({search}) | {when} |"
+    icon = f'<img src="{html.escape(avatar)}&amp;s=40" width="16" height="16" alt=""> '
+    name = html.escape(repo)
+    return (
+        f'<tr><td>{icon}<a href="{html.escape(url)}">{name}</a></td>'
+        f'<td align="right">{stars(count)}</td>'
+        f'<td><a href="{html.escape(search)}">View PRs</a></td>'
+        f'<td>{when.replace(" ", "&nbsp;")}</td></tr>'
+    )
 
 
 def table(projects: list[tuple]) -> list[str]:
-    return HEADER + [row(*project) for project in projects]
+    return HEADER + [row(*project) for project in projects] + ["</tbody>", "</table>"]
+
+
+def category(projects: list[tuple], label: str) -> list[str]:
+    visible = [project for project in projects if project[0] >= VISIBLE_STARS]
+    more = [project for project in projects if project[0] < VISIBLE_STARS]
+    block = table(visible) if visible else []
+    if more:
+        block += [
+            "", "<details>",
+            f"<summary>{len(more)} more {label} projects (under 1,000 stars)</summary>",
+            "", *table(more), "", "</details>",
+        ]
+    return block
 
 
 def main() -> None:
@@ -187,10 +213,10 @@ def main() -> None:
         "",
         "### AI and agent infrastructure",
         "",
-        *table(ai),
+        *category(ai, "AI and agent infrastructure"),
     ]
     if other:
-        block += ["", "### Projects outside AI", "", *table(other)]
+        block += ["", "### Projects outside AI", "", *category(other, "non-AI")]
 
     before, _, rest = README.read_text(encoding="utf-8").partition(START)
     _, marker, after = rest.partition(END)
@@ -212,4 +238,5 @@ def main() -> None:
     print(f"{count} merged PRs: {len(ai)} AI projects, {len(other)} others")
 
 
-main()
+if __name__ == "__main__":
+    main()
