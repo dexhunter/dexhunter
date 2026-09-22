@@ -16,13 +16,13 @@
 
 ## 👨‍💻 About
 
-I'm a Member of Technical Staff at [Weco AI](https://github.com/wecoai). I build autonomous research agents that write code, run experiments, and improve their solutions based on the results.
+I'm a Member of Technical Staff at [Weco AI](https://github.com/wecoai), where I build autonomous agents for research.
 
-I co-authored the [AIDE paper](https://arxiv.org/abs/2502.13138) (2025) and have [contributed](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) to its codebase since 2024. Previously, I was a [maintainer](https://github.com/hyperledger/fabric-sdk-py/blob/main/MAINTAINERS.md) of the Hyperledger Fabric Python SDK, a Linux Foundation project.
+I've [contributed to AIDE](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) since 2024 and co-authored its [2025 paper](https://arxiv.org/abs/2502.13138). AIDE uses tree search to write and improve machine learning code. OpenAI used it for [MLE-bench evaluations](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf), and Meta FAIR [reimplemented it as a baseline](https://arxiv.org/abs/2507.02554) for its own research agents.
 
-AIDE uses tree search to write and improve machine learning code. OpenAI used AIDE for its MLE-bench evaluations of GPT-4.5, o1, and o3-mini, as documented in the [GPT-4.5 system card](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf). Meta FAIR's [AI Research Agents](https://arxiv.org/abs/2507.02554) described AIDE as "the state-of-the-art approach" and rebuilt it as a baseline for comparison.
+Previously, I built trading systems at [Hex Trust](https://hextrust.com). I also served as a [maintainer of the Hyperledger Fabric Python SDK](https://github.com/hyperledger/fabric-sdk-py/blob/main/MAINTAINERS.md), a Linux Foundation project.
 
-Previously, I built trading systems at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University. I also did research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
+I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University. I also did research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
 
 ## 🌱 Open source
 
