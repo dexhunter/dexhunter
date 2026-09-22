@@ -13,22 +13,18 @@
   </defs>
   <style>
     text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
-    .vc-x, .vc-y { transform-box: fill-box; }
-    .vc-x { transform-origin: left center; }
-    .vc-y { transform-origin: center bottom; }
     @media (prefers-reduced-motion: no-preference) {
-      .vc-x { animation: vc-grow-x 600ms cubic-bezier(.22,1,.36,1) backwards; }
-      .vc-y { animation: vc-grow-y 600ms cubic-bezier(.22,1,.36,1) backwards; }
-      .vc-reveal { animation: vc-reveal 450ms ease-out backwards; }
+      .vc-x, .vc-y, .vc-reveal { animation: vc-highlight 5s ease-in-out infinite both; }
     }
-    @keyframes vc-grow-x { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-    @keyframes vc-grow-y { from { transform: scaleY(0); } to { transform: scaleY(1); } }
-    @keyframes vc-reveal { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes vc-highlight {
+      0%, 100% { opacity: 0.65; }
+      35%, 65% { opacity: 1; }
+    }
   </style>
   <rect x="1" y="1" width="493" height="198" rx="14" fill="#0d1117" stroke="#293548"/>
   <rect x="22" y="23" width="3" height="17" rx="1.5" fill="#79b8ff"/>
   <text x="35" y="36" fill="#e6edf3" font-size="16" font-weight="650">Token Usage by Model</text>
   <text x="22" y="56" fill="#9daec3" font-size="11">Input + output + cached tokens</text>
 <g><title>OpenAI: 17759440304 tokens</title><text x="20" y="91" fill="#e6edf3" font-size="11">OpenAI</text><rect x="190" y="78" width="210" height="18" rx="3" fill="#161e2b"/><rect x="190" y="78" width="210" height="18" rx="3" fill="#58a6ff" class="vc-x" style="animation-delay:0ms"/><text x="475" text-anchor="end" y="91" fill="#9daec3" font-size="10">17.8B</text></g>
-    <g><title>Claude: 1326239045 tokens</title><text x="20" y="127" fill="#e6edf3" font-size="11">Claude</text><rect x="190" y="114" width="210" height="18" rx="3" fill="#161e2b"/><rect x="190" y="114" width="16" height="18" rx="3" fill="#3fb950" class="vc-x" style="animation-delay:30ms"/><text x="475" text-anchor="end" y="127" fill="#9daec3" font-size="10">1.3B</text></g>
-    <g><title>Other: 0 tokens</title><text x="20" y="163" fill="#e6edf3" font-size="11">Other</text><rect x="190" y="150" width="210" height="18" rx="3" fill="#161e2b"/><rect x="190" y="150" width="0" height="18" rx="3" fill="#d29922" class="vc-x" style="animation-delay:60ms"/><text x="475" text-anchor="end" y="163" fill="#9daec3" font-size="10">0</text></g></svg>
+    <g><title>Claude: 1326239045 tokens</title><text x="20" y="127" fill="#e6edf3" font-size="11">Claude</text><rect x="190" y="114" width="210" height="18" rx="3" fill="#161e2b"/><rect x="190" y="114" width="16" height="18" rx="3" fill="#3fb950" class="vc-x" style="animation-delay:120ms"/><text x="475" text-anchor="end" y="127" fill="#9daec3" font-size="10">1.3B</text></g>
+    <g><title>Other: 0 tokens</title><text x="20" y="163" fill="#e6edf3" font-size="11">Other</text><rect x="190" y="150" width="210" height="18" rx="3" fill="#161e2b"/><rect x="190" y="150" width="0" height="18" rx="3" fill="#d29922" class="vc-x" style="animation-delay:240ms"/><text x="475" text-anchor="end" y="163" fill="#9daec3" font-size="10">0</text></g></svg>

@@ -22,11 +22,11 @@ I co-authored the [AIDE paper](https://arxiv.org/abs/2502.13138) (2025) and have
 
 AIDE uses tree search to write and improve machine learning code. OpenAI used AIDE for its MLE-bench evaluations of GPT-4.5, o1, and o3-mini, as documented in the [GPT-4.5 system card](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf). Meta FAIR's [AI Research Agents](https://arxiv.org/abs/2507.02554) described AIDE as "the state-of-the-art approach" and rebuilt it as a baseline for comparison.
 
-Previously, I built trading backends in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University, with earlier research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
+Previously, I built trading systems in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University, with earlier research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
 
 ## 🌱 Open source
 
-**Featured**
+### Featured
 
 - **[UK AI Security Institute — Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** — performance work on the UK government's LLM evaluation framework: cut clustered-stderr scoring time and memory ([#4714](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4714)), and made tool-result media extraction linear in conversation length ([#4628](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4628)).
 - **[OpenAI Parameter Golf](https://github.com/openai/parameter-golf)** — I built an autonomous research agent that set seven leaderboard records in 2026, with entries in the official [record-track directory](https://github.com/openai/parameter-golf/tree/main/records/track_10min_16mb). Its best result achieved a 5-seed mean validation BPB of [1.0645](https://github.com/openai/parameter-golf/pull/1769). OpenAI also highlighted [one of the agent's model-compression PRs](https://github.com/openai/parameter-golf/pull/1060) in its [write-up about the competition](https://openai.com/index/what-parameter-golf-taught-us/).
@@ -38,7 +38,7 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 
 <!-- OSS-PRS:START -->
 
-**Contributions to 57 open source projects — 30 of them AI or agent infrastructure.**
+Contributions to 57 open source projects — 30 of them AI or agent infrastructure.
 
 ### AI and agent infrastructure
 
@@ -138,7 +138,7 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 
 ## ⏱ [Vibe Clock](https://github.com/dexhunter/vibe-clock)
 
-An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. The charts below show my own usage, with brief animations and daily updates.
+An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. The charts below show my own usage, with repeating animations and daily updates.
 
 <p align="center">
   <img src="images/vibe-clock-card.svg" alt="Vibe Clock Stats" />

@@ -182,8 +182,8 @@ def main() -> None:
 
     count = sum(project[1] for project in ai + other)
     block = [
-        f"**Contributions to {len(ai) + len(other)} open source "
-        f"projects — {len(ai)} of them AI or agent infrastructure.**",
+        f"Contributions to {len(ai) + len(other)} open source "
+        f"projects — {len(ai)} of them AI or agent infrastructure.",
         "",
         "### AI and agent infrastructure",
         "",
