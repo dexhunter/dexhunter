@@ -22,7 +22,11 @@ I co-authored the [AIDE paper](https://arxiv.org/abs/2502.13138) (2025) and have
 
 AIDE uses tree search to write and improve machine learning code. OpenAI used AIDE for its MLE-bench evaluations of GPT-4.5, o1, and o3-mini, as documented in the [GPT-4.5 system card](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf). Meta FAIR's [AI Research Agents](https://arxiv.org/abs/2507.02554) described AIDE as "the state-of-the-art approach" and rebuilt it as a baseline for comparison.
 
-Previously, I built trading systems in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University, with earlier research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
+I built trading systems at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University, with earlier research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
+
+### Tech stack
+
+Rust · Go · Node.js
 
 ## 🌱 Open source
 
