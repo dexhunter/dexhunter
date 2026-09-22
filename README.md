@@ -16,7 +16,7 @@
 
 ## 👨‍💻 About
 
-I build autonomous research agents at [Weco AI](https://github.com/wecoai), where I'm a Member of Technical Staff. My work focuses on agents that write code, test it against a metric, and improve it through long research runs without supervision.
+I'm a Member of Technical Staff at [Weco AI](https://github.com/wecoai). I build autonomous research agents that write code, run experiments, and improve their solutions based on the results.
 
 I co-authored the [AIDE paper](https://arxiv.org/abs/2502.13138) (2025) and have [contributed](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) to its codebase since 2024. Previously, I was a [maintainer](https://github.com/hyperledger/fabric-sdk-py/blob/main/MAINTAINERS.md) of the Hyperledger Fabric Python SDK, a Linux Foundation project.
 
