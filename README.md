@@ -141,13 +141,13 @@ Contributions to 57 open source projects — 30 of them AI or agent infrastructu
 An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. The charts below show my own usage, with repeating animations and daily updates.
 
 <p align="center">
-  <img src="images/vibe-clock-card.svg?v=2" alt="Vibe Clock Stats" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-card.svg" alt="Vibe Clock Stats" />
 </p>
 <p align="center">
-  <img src="images/vibe-clock-donut.svg?v=2" alt="Model Usage" />
-  <img src="images/vibe-clock-token-bars.svg?v=2" alt="Token Usage by Model" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-donut.svg" alt="Model Usage" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-token-bars.svg" alt="Token Usage by Model" />
 </p>
 <p align="center">
-  <img src="images/vibe-clock-hourly.svg?v=2" alt="Activity by Hour" />
-  <img src="images/vibe-clock-weekly.svg?v=2" alt="Activity by Day of Week" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-hourly.svg" alt="Activity by Hour" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-weekly.svg" alt="Activity by Day of Week" />
 </p>
