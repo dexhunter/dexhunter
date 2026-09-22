@@ -20,14 +20,9 @@ I build autonomous research agents at [Weco AI](https://github.com/wecoai), wher
 
 I co-authored the [AIDE paper](https://arxiv.org/abs/2502.13138) (2025) and have [contributed](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) to its codebase since 2024. Previously, I was a [maintainer](https://github.com/hyperledger/fabric-sdk-py/blob/main/MAINTAINERS.md) of the Hyperledger Fabric Python SDK, a Linux Foundation project.
 
-<details>
-<summary>Research and professional background</summary>
-
 AIDE uses tree search to write and improve machine learning code. OpenAI used AIDE for its MLE-bench evaluations of GPT-4.5, o1, and o3-mini, as documented in the [GPT-4.5 system card](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf). Meta FAIR's [AI Research Agents](https://arxiv.org/abs/2507.02554) described AIDE as "the state-of-the-art approach" and rebuilt it as a baseline for comparison.
 
 Previously, I built trading backends in Rust, Go, and Node.js at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University, with earlier research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
-
-</details>
 
 ## 🌱 Open source
 
@@ -143,10 +138,7 @@ Each project links to its merged pull requests on GitHub. Ranked by stars, refre
 
 ## ⏱ [Vibe Clock](https://github.com/dexhunter/vibe-clock)
 
-An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. Expand the section below to see my usage charts, with brief animations and daily updates.
-
-<details>
-<summary>My coding-agent usage charts</summary>
+An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. The charts below show my own usage, with brief animations and daily updates.
 
 <p align="center">
   <img src="images/vibe-clock-card.svg" alt="Vibe Clock Stats" />
@@ -159,5 +151,3 @@ An open-source tool I built: WakaTime-style usage tracking for Claude Code, Code
   <img src="images/vibe-clock-hourly.svg" alt="Activity by Hour" />
   <img src="images/vibe-clock-weekly.svg" alt="Activity by Day of Week" />
 </p>
-
-</details>
