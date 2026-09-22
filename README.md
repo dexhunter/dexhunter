@@ -24,10 +24,6 @@ AIDE uses tree search to write and improve machine learning code. OpenAI used AI
 
 I built trading systems at [Hex Trust](https://hextrust.com). I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University. I also did research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
 
-### Tech stack
-
-Rust · Go · Node.js
-
 ## 🌱 Open source
 
 ### Featured
