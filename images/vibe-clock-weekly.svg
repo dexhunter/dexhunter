@@ -42,14 +42,14 @@
     <rect x="174.9" y="80.0" width="50.4" height="120.0" rx="3" fill="url(#vc-green)" id="vc-y-2" class="vc-y"><title>Wed: 162 sessions</title></rect>
     <text x="200.1" y="76.0" text-anchor="middle" fill="#9daec3" font-size="9">162</text>
     <rect x="237.3" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="237.3" y="127.4" width="50.4" height="72.6" rx="3" fill="url(#vc-green)" id="vc-y-3" class="vc-y"><title>Thu: 98 sessions</title></rect>
-    <text x="262.5" y="123.4" text-anchor="middle" fill="#9daec3" font-size="9">98</text>
+    <rect x="237.3" y="136.3" width="50.4" height="63.7" rx="3" fill="url(#vc-green)" id="vc-y-3" class="vc-y"><title>Thu: 86 sessions</title></rect>
+    <text x="262.5" y="132.3" text-anchor="middle" fill="#9daec3" font-size="9">86</text>
     <rect x="299.7" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
     <rect x="299.7" y="105.9" width="50.4" height="94.1" rx="3" fill="url(#vc-green)" id="vc-y-4" class="vc-y"><title>Fri: 127 sessions</title></rect>
     <text x="324.9" y="101.9" text-anchor="middle" fill="#9daec3" font-size="9">127</text>
     <rect x="362.1" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="362.1" y="140.0" width="50.4" height="60.0" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 81 sessions</title></rect>
-    <text x="387.4" y="136.0" text-anchor="middle" fill="#9daec3" font-size="9">81</text>
+    <rect x="362.1" y="124.4" width="50.4" height="75.6" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 102 sessions</title></rect>
+    <text x="387.4" y="120.4" text-anchor="middle" fill="#9daec3" font-size="9">102</text>
     <rect x="424.6" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
     <rect x="424.6" y="127.4" width="50.4" height="72.6" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 98 sessions</title></rect>
     <text x="449.8" y="123.4" text-anchor="middle" fill="#9daec3" font-size="9">98</text>
