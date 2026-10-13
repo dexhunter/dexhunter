@@ -1,5 +1,6 @@
 <div align="center">
-<h1 align="center">Hi👋 Dex here. Welcome to my page!</h1>
+<h1 align="center">Optimizing the optimizer.</h1>
+<p align="center"><b>I build recursively self-improving AI agents.</b></p>
 </div>
 
 > [!NOTE]
@@ -16,7 +17,9 @@
 
 ## 👨‍💻 About
 
-I'm a Member of Technical Staff at [Weco AI](https://github.com/wecoai), where I build autonomous agents for research.
+I'm Dex, a Member of Technical Staff at [Weco AI](https://github.com/wecoai) in London, UK. My agents write code, test it against a benchmark and keep what scores better. I co-authored AIDE, the tree-search ML agent OpenAI used in MLE-bench, and AIDE², which runs that loop on AIDE's own code. I also built the research agent that set seven records in OpenAI's Parameter Golf.
+
+In [AIDE²](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement), an outer agent rewrites AIDE's own code and keeps a rewrite only when it scores higher. In 100 unattended steps over eight days it found seven better versions of AIDE, and the best ones beat the hand-tuned agent on MLE-Bench Lite, ALE-Bench Lite and WeatherBench 2. AIDE's reward-hacking rate on KernelBench fell from 63% (AIDE<sub>0</sub>) to 34% (AIDE<sub>85</sub>). Our [technical report](https://arxiv.org/abs/2609.26457) rates the result "net positive", level 1 on a four-level ladder of recursive self-improvement.
 
 I've [contributed to AIDE](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) since 2024 and co-authored its [2025 paper](https://arxiv.org/abs/2502.13138). AIDE uses tree search to write and improve machine learning code. OpenAI used it for [MLE-bench evaluations](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf), and Meta FAIR [reimplemented it as a baseline](https://arxiv.org/abs/2507.02554) for its own research agents.
 
@@ -141,6 +144,7 @@ Contributions to 59 open source projects — 32 of them AI or agent infrastructu
 
 ## 📚 Publications
 
+- *Recursive Self-Improvement of AI Research Agents* ([arXiv](https://arxiv.org/abs/2609.26457)), arXiv preprint, 2026
 - *AIDE: AI-Driven Exploration in the Space of Code* ([arXiv](https://arxiv.org/abs/2502.13138)), arXiv preprint, 2025
 - *Lightweight and Unobtrusive Data Obfuscation at IoT Edge for Remote Inference* ([DOI](https://doi.org/10.1109/JIOT.2020.2983278)), IEEE Internet of Things Journal, 2020
 - *Challenges of Privacy-Preserving Machine Learning in IoT* ([DOI](https://doi.org/10.1145/3363347.3363357)), ACM AIChallengeIoT, 2019
