@@ -33,8 +33,8 @@
   <text x="22" y="56" fill="#9daec3" font-size="11">Sessions · last 30 complete days</text>
 
 <rect x="50.0" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="50.0" y="145.5" width="50.4" height="54.5" rx="3" fill="url(#vc-green)" id="vc-y-0" class="vc-y"><title>Mon: 79 sessions</title></rect>
-    <text x="75.2" y="141.5" text-anchor="middle" fill="#9daec3" font-size="9">79</text>
+    <rect x="50.0" y="99.3" width="50.4" height="100.7" rx="3" fill="url(#vc-green)" id="vc-y-0" class="vc-y"><title>Mon: 146 sessions</title></rect>
+    <text x="75.2" y="95.3" text-anchor="middle" fill="#9daec3" font-size="9">146</text>
     <rect x="112.4" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
     <rect x="112.4" y="144.8" width="50.4" height="55.2" rx="3" fill="url(#vc-green)" id="vc-y-1" class="vc-y"><title>Tue: 80 sessions</title></rect>
     <text x="137.6" y="140.8" text-anchor="middle" fill="#9daec3" font-size="9">80</text>
@@ -48,8 +48,8 @@
     <rect x="299.7" y="80.0" width="50.4" height="120.0" rx="3" fill="url(#vc-green)" id="vc-y-4" class="vc-y"><title>Fri: 174 sessions</title></rect>
     <text x="324.9" y="76.0" text-anchor="middle" fill="#9daec3" font-size="9">174</text>
     <rect x="362.1" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="362.1" y="134.5" width="50.4" height="65.5" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 95 sessions</title></rect>
-    <text x="387.4" y="130.5" text-anchor="middle" fill="#9daec3" font-size="9">95</text>
+    <rect x="362.1" y="146.9" width="50.4" height="53.1" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 77 sessions</title></rect>
+    <text x="387.4" y="142.9" text-anchor="middle" fill="#9daec3" font-size="9">77</text>
     <rect x="424.6" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
     <rect x="424.6" y="159.3" width="50.4" height="40.7" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 59 sessions</title></rect>
     <text x="449.8" y="155.3" text-anchor="middle" fill="#9daec3" font-size="9">59</text>
