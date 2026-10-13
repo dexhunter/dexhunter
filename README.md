@@ -8,8 +8,8 @@
 
 <p align="center">
   <a href="https://github.com/dexhunter"><img src="https://img.shields.io/github/followers/dexhunter.svg?label=GitHub&style=flat-square" alt="GitHub"></a>
-  <a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmaster%2Fimages%2Fgoogle-scholar-citations.json&style=flat-square" alt="Google Scholar citations"></a>
-  <a href="#-open-source"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmaster%2Fimages%2Foss-prs.json&style=flat-square" alt="Open source projects"></a>
+  <a href="https://scholar.google.co.jp/citations?user=8Ez_u30AAAAJ&hl=en"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmain%2Fimages%2Fgoogle-scholar-citations.json&style=flat-square" alt="Google Scholar citations"></a>
+  <a href="#-open-source"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fdexhunter%2Fdexhunter%2Fmain%2Fimages%2Foss-prs.json&style=flat-square" alt="Open source projects"></a>
   <a href="https://stackoverflow.com/users/3253000/dexhunter"><img src="https://img.shields.io/stackexchange/stackoverflow/r/3253000?style=flat-square&label=Stack%20Overflow&logo=stackoverflow&logoColor=white&color=orange" alt="Stack Overflow reputation"></a>
   <a href="https://dex.moe"><img src="https://img.shields.io/badge/Website-dex.moe-red?style=flat-square" alt="Website"></a>
   <a href="mailto:i@dex.moe"><img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
@@ -176,13 +176,13 @@ Contributions to 59 open source projects — 32 of them AI or agent infrastructu
 An open-source tool I built: WakaTime-style usage tracking for Claude Code, Codex, and OpenCode. The charts below show my own usage, with repeating animations and daily updates.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-card.svg" alt="Vibe Clock Stats" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/main/images/vibe-clock-card.svg" alt="Vibe Clock Stats" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-donut.svg" alt="Model Usage" />
-  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-token-bars.svg" alt="Token Usage by Model" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/main/images/vibe-clock-donut.svg" alt="Model Usage" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/main/images/vibe-clock-token-bars.svg" alt="Token Usage by Model" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-hourly.svg" alt="Activity by Hour" />
-  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/master/images/vibe-clock-weekly.svg" alt="Activity by Day of Week" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/main/images/vibe-clock-hourly.svg" alt="Activity by Hour" />
+  <img src="https://raw.githubusercontent.com/dexhunter/dexhunter/refs/heads/main/images/vibe-clock-weekly.svg" alt="Activity by Day of Week" />
 </p>

@@ -3,7 +3,7 @@ name: Update Open Source PRs
 on:
   schedule:
     # Monday and Thursday, hours clear of the citation (Mon 00:17) and
-    # vibe-clock (daily 01:15) pushes so two jobs never race to push master.
+    # vibe-clock (daily 01:15) pushes so two jobs never race to push main.
     - cron: "41 3 * * 1,4"
   workflow_dispatch:
 
@@ -35,7 +35,7 @@ jobs:
           git add README.md images/oss-prs.json
           git diff --staged --quiet && exit 0
           git commit -m "chore: update open source PR table"
-          # Three scheduled jobs push to master; without a rebase a job that
+          # Three scheduled jobs push to main; without a rebase a job that
           # loses the race fails after doing all its work and drops the update.
-          git pull --rebase --quiet origin master
+          git pull --rebase --quiet origin main
           git push
