@@ -20,8 +20,8 @@ const DEX: ReadMe = ReadMe {
     name: "Dex Hunter",
     blog: "https://blog.dex.moe",
     email: "i@dex.moe",
-    industry_focus: "web3/crypto, fintech, data science, LLM/agentic systems",
-    academic_interests: "Deep Learning, Reinforcement Learning, Internet of Things, Distributed Ledger Technology, Self-Improving AI",
+    industry_focus: "recursively self-improving AI agents, LLM/agentic systems (earlier: web3/crypto, fintech, data science)",
+    academic_interests: "Recursive Self-Improvement, AI Research Agents, Tree Search over Code, Deep Learning, Reinforcement Learning (earlier: Internet of Things, Distributed Ledger Technology)",
     hobbies: "weightlifting 🏋️‍♂️, guitars 🎸 (particularly love surf rock 🏄🪨)"
 };
 

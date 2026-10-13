@@ -17,25 +17,25 @@
 
 ## 👨‍💻 About
 
-I'm Dex, a Member of Technical Staff at [Weco AI](https://github.com/wecoai) in London, UK. My agents write code, test it against a benchmark and keep what scores better. I co-authored AIDE, the tree-search ML agent OpenAI used in MLE-bench, and AIDE², which runs that loop on AIDE's own code. I also built the research agent that set seven records in OpenAI's Parameter Golf.
+I'm Dex, a Member of Technical Staff at [Weco AI](https://github.com/wecoai) in London, UK. My agents write code, test it against a benchmark and keep what scores better. I co-authored AIDE, the tree-search ML agent OpenAI used in [MLE-bench](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf), and AIDE², which runs that loop on AIDE's own code. I also built the research agent that set seven records in OpenAI's Parameter Golf.
 
-In [AIDE²](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement), an outer agent rewrites AIDE's own code and keeps a rewrite only when it scores higher. In 100 unattended steps over eight days it found seven better versions of AIDE, and the best ones beat the hand-tuned agent on MLE-Bench Lite, ALE-Bench Lite and WeatherBench 2. AIDE's reward-hacking rate on KernelBench fell from 63% (AIDE<sub>0</sub>) to 34% (AIDE<sub>85</sub>). Our [technical report](https://arxiv.org/abs/2609.26457) rates the result "net positive", level 1 on a four-level ladder of recursive self-improvement.
+I've [contributed to AIDE](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) since 2024, and our [2025 paper](https://arxiv.org/abs/2502.13138) describes how it works. Meta FAIR [reimplemented AIDE as a baseline](https://arxiv.org/abs/2507.02554) for its own research agents.
 
-I've [contributed to AIDE](https://github.com/WecoAI/aideml/pulls?q=is%3Apr+author%3Adexhunter+is%3Amerged) since 2024 and co-authored its [2025 paper](https://arxiv.org/abs/2502.13138). AIDE uses tree search to write and improve machine learning code. OpenAI used it for [MLE-bench evaluations](https://cdn.openai.com/gpt-4-5-system-card-2272025.pdf), and Meta FAIR [reimplemented it as a baseline](https://arxiv.org/abs/2507.02554) for its own research agents.
+In [AIDE²](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement), an outer agent rewrites AIDE's own code and keeps a rewrite only when it scores higher on held-out tasks. In an eight-day unattended run it found seven successive improvements, and the strongest discovered agent matches or beats the hand-tuned production agent on four held-out benchmarks: ALE-Bench, MLE-Bench, FML-Bench and WeatherBench 2. On a separate held-out task family, the discovered agents' reward-hacking rate fell from 55% to 32%, below the hand-tuned agent's 39%. The details are in our [technical report](https://arxiv.org/abs/2609.26457), and in the [Weco AI post](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement) we place this at Level 1, "net positive", on a four-level ladder of recursive self-improvement.
 
 Previously, I built trading systems at [Hex Trust](https://hextrust.com). I also served as a [maintainer of the Hyperledger Fabric Python SDK](https://github.com/hyperledger/fabric-sdk-py/blob/main/MAINTAINERS.md), a Linux Foundation project.
 
-I studied Information and Computing Sciences at the University of Liverpool and Xi'an Jiaotong-Liverpool University. I also did research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
+I studied Information and Computing Science at the University of Liverpool and Xi'an Jiaotong-Liverpool University. I also did research at Nanyang Technological University, Zhejiang University, and Hong Kong Baptist University.
 
 ## 🌱 Open source
 
 ### Featured
 
-- **[UK AI Security Institute — Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** — performance work on the UK government's LLM evaluation framework: cut clustered-stderr scoring time and memory ([#4714](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4714)), and made tool-result media extraction linear in conversation length ([#4628](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4628)).
+- **[AIDE](https://github.com/WecoAI/aideml)** — contributions to the open-source tree-search agent behind our 2025 paper; it writes, evaluates, and improves machine learning code. I also contribute to [weco-cli](https://github.com/WecoAI/weco-cli), the command line tool that drives it.
 - **[OpenAI Parameter Golf](https://github.com/openai/parameter-golf)** — I built an autonomous research agent that set seven leaderboard records in 2026, with entries in the official [record-track directory](https://github.com/openai/parameter-golf/tree/main/records/track_10min_16mb). Its best result achieved a 5-seed mean validation BPB of [1.0645](https://github.com/openai/parameter-golf/pull/1769). OpenAI also highlighted [one of the agent's model-compression PRs](https://github.com/openai/parameter-golf/pull/1060) in its [write-up about the competition](https://openai.com/index/what-parameter-golf-taught-us/).
+- **[UK AI Security Institute's Inspect](https://github.com/UKGovernmentBEIS/inspect_ai)** — performance work on the UK government's LLM evaluation framework: cut clustered-stderr scoring time and memory ([#4714](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4714)) and made tool-result media extraction linear in conversation length ([#4628](https://github.com/UKGovernmentBEIS/inspect_ai/pull/4628)).
 - **Agent runtimes** — merged performance work into [openclaw](https://github.com/openclaw/openclaw/pull/99714), [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT/pull/13478), [goose](https://github.com/aaif-goose/goose/pull/10409), [qwen-code](https://github.com/QwenLM/qwen-code/pull/8253), [pydantic-ai](https://github.com/pydantic/pydantic-ai/pull/6485), [agno](https://github.com/agno-agi/agno/pull/8907) and [BAML](https://github.com/BoundaryML/baml/pull/3975).
 - **AI research infrastructure** — cut redundant AST parsing in Sakana AI's [ShinkaEvolve](https://github.com/SakanaAI/ShinkaEvolve/pull/175) and bounded process-pool shutdown latency in [OpenEvolve](https://github.com/algorithmicsuperintelligence/openevolve/pull/469); smaller docs fixes in Meta's [aira-dojo](https://github.com/facebookresearch/aira-dojo/pull/2), Microsoft's [RD-Agent](https://github.com/microsoft/RD-Agent/pull/1249) and OpenAI's [MLE-bench](https://github.com/openai/mle-bench/pull/101).
-- **[AIDE](https://github.com/WecoAI/aideml)** — contributions to the open-source tree-search agent behind my 2025 paper; it writes, evaluates, and improves machine learning code. I also contribute to [weco-cli](https://github.com/WecoAI/weco-cli), the command line tool that drives it.
 
 Each project links to its merged pull requests on GitHub. Ranked by stars, refreshed weekly. Projects with fewer than 1,000 stars are listed in the expandable sections.
 
@@ -153,21 +153,22 @@ Contributions to 59 open source projects — 32 of them AI or agent infrastructu
 ## 🎤 Talks
 
 - **Hands-on AutoResearch: Cracking OpenAI's Parameter Golf** — workshop with the Weco AI team, [AI Engineer World's Fair 2026](https://www.ai.engineer/worldsfair/2026/schedule)
-- **[Algorithmic Trading Workshop](https://slides.dex.moe)** — Network School, first cohort (2024)
-- **[Deep Learning for Power System Security Assessment](https://slides.dex.moe)** (2019)
-- **[Introduction to Hyperledger Fabric](https://slides.dex.moe)** (2019)
+- **[Algorithmic Trading Workshop](https://slides.dex.moe/Algorithmic-Trading-Workshop/)** — Network School, first cohort (2024)
+- **[Deep Learning for Power System Security Assessment](https://slides.dex.moe/dl-power-system-security/)** (2019)
+- **[Introduction to Hyperledger Fabric](https://slides.dex.moe/hyperledger-tutorial/)** (2019)
 
 ## 🏅 Awards
 
-- 🏆 Special Prize (US$10,000), Wanxiang Blockchain Hackathon by QTUM (2018)
+- 🏆 Dev Bounty Winner, Network School, first cohort (2024)
+- 🏆 Special Prize (US$10,000), Wanxiang Blockchain Hackathon by Qtum (2018)
 - 🥇 1st Prize, EOS Hackathon Hangzhou (team, 2018)
 - 🥇 1st Prize, Hack x FDU 2017 Hackathon (out of more than 70 teams)
 - 🥈 2nd Prize, XJTLU Blockchain Technology Application Innovation & Entrepreneurship Challenge (2020)
 - 🥈 2nd Prize, XJTLU & PNP AI Innovation Hackathon (2018)
 - 🥉 3rd Prize, EOS Hackathon Hangzhou (individual, 2018)
 - 🥉 3rd Prize, DoraHacks x BCH Faith Hack (2018)
-- 🏆 IBM Student Innovation Lab Program Award (2017)
-- 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum (2020)
+- 🏆 IBM Student Innovation Lab Program Award (2018)
+- 🎓 Hyperledger Diversity Scholarship, Hyperledger Global Forum 2020 (2019)
 - 🎓 CNCF Diversity Scholarship, KubeCon + CloudNativeCon China (2018)
 
 ## ⏱ [Vibe Clock](https://github.com/dexhunter/vibe-clock)
