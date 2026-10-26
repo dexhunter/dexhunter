@@ -1,6 +1,6 @@
 <div align="center">
 <h1 align="center">Recursively self-improving agents.</h1>
-<p align="center"><b>I build AI agents that improve their own code.</b></p>
+<p align="center"><b>I build autonomous research agents that improve their own code, tools, context and skills.</b></p>
 </div>
 
 > [!NOTE]
