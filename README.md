@@ -1,6 +1,6 @@
 <div align="center">
-<h1 align="center">Optimizing the optimizer.</h1>
-<p align="center"><b>I build recursively self-improving AI agents.</b></p>
+<h1 align="center">Recursively self-improving agents.</h1>
+<p align="center"><b>I build AI agents that improve their own code.</b></p>
 </div>
 
 > [!NOTE]
