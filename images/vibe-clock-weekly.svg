@@ -33,26 +33,26 @@
   <text x="22" y="56" fill="#9daec3" font-size="11">Sessions · last 30 complete days</text>
 
 <rect x="50.0" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="50.0" y="80.0" width="50.4" height="120.0" rx="3" fill="url(#vc-green)" id="vc-y-0" class="vc-y"><title>Mon: 45 sessions</title></rect>
-    <text x="75.2" y="76.0" text-anchor="middle" fill="#9daec3" font-size="9">45</text>
+    <rect x="50.0" y="80.0" width="50.4" height="120.0" rx="3" fill="url(#vc-green)" id="vc-y-0" class="vc-y"><title>Mon: 215 sessions</title></rect>
+    <text x="75.2" y="76.0" text-anchor="middle" fill="#9daec3" font-size="9">215</text>
     <rect x="112.4" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="112.4" y="138.7" width="50.4" height="61.3" rx="3" fill="url(#vc-green)" id="vc-y-1" class="vc-y"><title>Tue: 23 sessions</title></rect>
-    <text x="137.6" y="134.7" text-anchor="middle" fill="#9daec3" font-size="9">23</text>
+    <rect x="112.4" y="186.0" width="50.4" height="14.0" rx="3" fill="url(#vc-green)" id="vc-y-1" class="vc-y"><title>Tue: 25 sessions</title></rect>
+    <text x="137.6" y="182.0" text-anchor="middle" fill="#9daec3" font-size="9">25</text>
     <rect x="174.9" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="174.9" y="141.3" width="50.4" height="58.7" rx="3" fill="url(#vc-green)" id="vc-y-2" class="vc-y"><title>Wed: 22 sessions</title></rect>
-    <text x="200.1" y="137.3" text-anchor="middle" fill="#9daec3" font-size="9">22</text>
+    <rect x="174.9" y="187.7" width="50.4" height="12.3" rx="3" fill="url(#vc-green)" id="vc-y-2" class="vc-y"><title>Wed: 22 sessions</title></rect>
+    <text x="200.1" y="183.7" text-anchor="middle" fill="#9daec3" font-size="9">22</text>
     <rect x="237.3" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="237.3" y="125.3" width="50.4" height="74.7" rx="3" fill="url(#vc-green)" id="vc-y-3" class="vc-y"><title>Thu: 28 sessions</title></rect>
-    <text x="262.5" y="121.3" text-anchor="middle" fill="#9daec3" font-size="9">28</text>
+    <rect x="237.3" y="184.4" width="50.4" height="15.6" rx="3" fill="url(#vc-green)" id="vc-y-3" class="vc-y"><title>Thu: 28 sessions</title></rect>
+    <text x="262.5" y="180.4" text-anchor="middle" fill="#9daec3" font-size="9">28</text>
     <rect x="299.7" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="299.7" y="141.3" width="50.4" height="58.7" rx="3" fill="url(#vc-green)" id="vc-y-4" class="vc-y"><title>Fri: 22 sessions</title></rect>
-    <text x="324.9" y="137.3" text-anchor="middle" fill="#9daec3" font-size="9">22</text>
+    <rect x="299.7" y="187.2" width="50.4" height="12.8" rx="3" fill="url(#vc-green)" id="vc-y-4" class="vc-y"><title>Fri: 23 sessions</title></rect>
+    <text x="324.9" y="183.2" text-anchor="middle" fill="#9daec3" font-size="9">23</text>
     <rect x="362.1" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="362.1" y="165.3" width="50.4" height="34.7" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 13 sessions</title></rect>
-    <text x="387.4" y="161.3" text-anchor="middle" fill="#9daec3" font-size="9">13</text>
+    <rect x="362.1" y="192.7" width="50.4" height="7.3" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 13 sessions</title></rect>
+    <text x="387.4" y="188.7" text-anchor="middle" fill="#9daec3" font-size="9">13</text>
     <rect x="424.6" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="424.6" y="130.7" width="50.4" height="69.3" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 26 sessions</title></rect>
-    <text x="449.8" y="126.7" text-anchor="middle" fill="#9daec3" font-size="9">26</text>
+    <rect x="424.6" y="184.9" width="50.4" height="15.1" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 27 sessions</title></rect>
+    <text x="449.8" y="180.9" text-anchor="middle" fill="#9daec3" font-size="9">27</text>
 <text x="75.2" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Mon</text>
     <text x="137.6" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Tue</text>
     <text x="200.1" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Wed</text>
