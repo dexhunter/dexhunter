@@ -1,5 +1,5 @@
 <div align="center">
-<h1 align="center">Recursively self-improving agents.</h1>
+<h1 align="center">Optimize the optimizer.</h1>
 <p align="center"><b>I build autonomous research agents that improve their own code, tools, context and skills.</b></p>
 </div>
 
