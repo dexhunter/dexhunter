@@ -51,8 +51,8 @@
     <rect x="362.1" y="192.6" width="50.4" height="7.4" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 11 sessions</title></rect>
     <text x="387.4" y="188.6" text-anchor="middle" fill="#9daec3" font-size="9">11</text>
     <rect x="424.6" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="424.6" y="192.6" width="50.4" height="7.4" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 11 sessions</title></rect>
-    <text x="449.8" y="188.6" text-anchor="middle" fill="#9daec3" font-size="9">11</text>
+    <rect x="424.6" y="191.3" width="50.4" height="8.7" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 13 sessions</title></rect>
+    <text x="449.8" y="187.3" text-anchor="middle" fill="#9daec3" font-size="9">13</text>
 <text x="75.2" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Mon</text>
     <text x="137.6" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Tue</text>
     <text x="200.1" y="214" text-anchor="middle" fill="#e6edf3" font-size="10">Wed</text>
