@@ -42,14 +42,14 @@
     <rect x="174.9" y="193.1" width="50.4" height="6.9" rx="3" fill="url(#vc-green)" id="vc-y-2" class="vc-y"><title>Wed: 10 sessions</title></rect>
     <text x="200.1" y="189.1" text-anchor="middle" fill="#9daec3" font-size="9">10</text>
     <rect x="237.3" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="237.3" y="188.9" width="50.4" height="11.1" rx="3" fill="url(#vc-green)" id="vc-y-3" class="vc-y"><title>Thu: 16 sessions</title></rect>
-    <text x="262.5" y="184.9" text-anchor="middle" fill="#9daec3" font-size="9">16</text>
+    <rect x="237.3" y="194.5" width="50.4" height="5.5" rx="3" fill="url(#vc-green)" id="vc-y-3" class="vc-y"><title>Thu: 8 sessions</title></rect>
+    <text x="262.5" y="190.5" text-anchor="middle" fill="#9daec3" font-size="9">8</text>
     <rect x="299.7" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
     <rect x="299.7" y="191.0" width="50.4" height="9.0" rx="3" fill="url(#vc-green)" id="vc-y-4" class="vc-y"><title>Fri: 13 sessions</title></rect>
     <text x="324.9" y="187.0" text-anchor="middle" fill="#9daec3" font-size="9">13</text>
     <rect x="362.1" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
-    <rect x="362.1" y="194.5" width="50.4" height="5.5" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 8 sessions</title></rect>
-    <text x="387.4" y="190.5" text-anchor="middle" fill="#9daec3" font-size="9">8</text>
+    <rect x="362.1" y="192.4" width="50.4" height="7.6" rx="3" fill="url(#vc-green)" id="vc-y-5" class="vc-y"><title>Sat: 11 sessions</title></rect>
+    <text x="387.4" y="188.4" text-anchor="middle" fill="#9daec3" font-size="9">11</text>
     <rect x="424.6" y="80" width="50.4" height="120" rx="3" fill="#161e2b"/>
     <rect x="424.6" y="193.8" width="50.4" height="6.2" rx="3" fill="url(#vc-green)" id="vc-y-6" class="vc-y"><title>Sun: 9 sessions</title></rect>
     <text x="449.8" y="189.8" text-anchor="middle" fill="#9daec3" font-size="9">9</text>
